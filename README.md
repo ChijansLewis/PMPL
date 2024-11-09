@@ -1,10 +1,15 @@
 environment.yml 里提供了我们进行实验的环境信息
 
 安装detectron2
+
 pip install 'git+https://mirror.ghproxy.com/https://github.com/facebookresearch/detectron2.git'
+
 安装ViLT
+
 cd ViLT
+
 python setup.py install
+
 cd ..
 
 自行安装pytorch
