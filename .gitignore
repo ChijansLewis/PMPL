@@ -5,3 +5,4 @@ dataset/crisismmd/*
 **/models
 **/wandb
 **/output
+**/nohupfiles

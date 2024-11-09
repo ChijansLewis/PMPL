@@ -545,11 +545,11 @@ if __name__ == '__main__':
         with open(f'{args.args_file}', 'r') as f:
             args.__dict__.update(json.load(f))
 
-    config['optimizer']['lr']=args.lr
-    config['schedular']['lr']=args.lr
-    config['train_file']=f'./dataset/{args.dataset}/'+args.train_dataset
-    config['val_file']=f'./dataset/{args.dataset}/'+args.dev_dataset
-    config['test_file']=f'./dataset/{args.dataset}/'+args.test_dataset
+    # config['optimizer']['lr']=args.lr
+    # config['schedular']['lr']=args.lr
+    # config['train_file']=f'./dataset/{args.dataset}/'+args.train_dataset
+    # config['val_file']=f'./dataset/{args.dataset}/'+args.dev_dataset
+    # config['test_file']=f'./dataset/{args.dataset}/'+args.test_dataset
 
     #args.output_dir = args.output_dir + f'{args.dataset}/{args.file_path}/' + f'{args.seed}_{args.lr}_{args.prompt_length}_{args.mlp_hidden_sz}_{args.n_fusion_layers}_{args.beta}_{args.seed}_{args.use_gate}_{args.use_adapter}_{args.use_layer_gate}_{args.use_ca_loss}_{args.all_cat}_{args.use_prompt}_{args.model}'
     args.output_dir = (
@@ -577,10 +577,10 @@ if __name__ == '__main__':
     
     wandb.init(project="pmpl", 
            entity="chijanslewis-southwest-jiaotong-university",
-           name="train1108",
+           name="train1109",
            config=config_wandb)
     # 读取 sweep 配置
-    with open("wandb/sweep_conf.yaml", "r", encoding="utf-8") as file:
+    with open("configs/sweep_conf.yaml", "r", encoding="utf-8") as file:
         sweep_config = yaml.safe_load(file)
 
     # 执行 sweep
@@ -611,8 +611,17 @@ if __name__ == '__main__':
                 self.drop_rate = config_wandb['drop_rate']
                 
                 # 优化器和学习率调度器
-                self.optimizer = config_wandb['optimizer']
-                self.schedular = config_wandb['schedular']
+                self.optimizer = {'opt': 'adamW', 
+                                  'lr': config_wandb['optimizer_lr'], 
+                                  'weight_decay': 0.02}
+                self.schedular = {'sched': 'cosine', 
+                                  'lr': config_wandb['schedular_lr'], 
+                                  'epochs': 30, 
+                                  'min_lr': 1e-7, 
+                                  'decay_rate': 1, 
+                                  'warmup_lr': config_wandb['warmup_lr'], 
+                                  'warmup_epochs': 1, 
+                                  'cooldown_epochs': 0}
                 
                 # 新增配置
                 self.output_dir = config_wandb['output_dir']
@@ -661,5 +670,5 @@ if __name__ == '__main__':
                 self.model = config_wandb['model']
         args1 = Config(config_wandb)
         main(args1, config_wandb)
-    wandb.agent(sweep_id, train_wandb, count=5)
+    wandb.agent(sweep_id, train_wandb, count=30)
     

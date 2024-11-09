@@ -1,0 +1,36 @@
+program: PMPL_main.py
+name: sweep1
+method: random
+metric:
+  goal: minimize
+  name: combined_loss
+parameters:
+  seed:
+    min: 42
+    max: 1000
+  # 新增 optimizer 的 lr 参数优化范围
+  optimizer_lr:
+    min: 0.0000001
+    max: 0.001
+  warmup_lr:
+    min: 0.0000001
+    max: 0.001
+  # 新增 schedular 的 lr 参数优化范围
+  schedular_lr:
+    min: 0.0000001
+    max: 0.001
+  lr:
+    min: 0.0000001
+    max: 0.001
+  alpha:
+    min: 0.1
+    max: 0.9
+  beta:
+    min: 0.1
+    max: 0.9
+  shreshold:
+    min: 0.3
+    max: 0.7
+  drop_rate:
+    min: 0.05
+    max: 0.15

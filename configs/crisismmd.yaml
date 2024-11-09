@@ -17,6 +17,9 @@ warm_up: False
 vit: "vit_base_patch32_384"
 bert_config: 'configs/config_bert.json'
 drop_rate: 0.1
+optimizer_lr: 1e-3
+schedular_lr: 1e-3
+warmup_lr: 1e-4
 optimizer: {opt: adamW, lr: 1e-3, weight_decay: 0.02}
 schedular: {sched: cosine, lr: 1e-3, epochs: 30, min_lr: 1e-7, decay_rate: 1, warmup_lr: 1e-4, warmup_epochs: 1, cooldown_epochs: 0}
 
