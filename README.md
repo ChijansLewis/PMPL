@@ -1,6 +1,4 @@
 
-Here's a comprehensive README file for your project:
-
 ---
 
 # Progressive Multimodal Pivot Learning: Towards Semantic Discordance Understanding as Humans
