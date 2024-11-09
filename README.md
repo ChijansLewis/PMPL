@@ -1,6 +1,4 @@
-
 ---
-
 # Progressive Multimodal Pivot Learning: Towards Semantic Discordance Understanding as Humans
 
 This repository hosts the code for the **Progressive Multimodal Pivot Learning (PMPL)** research project. Our work focuses on enhancing the semantic discordance understanding in existing multimodal recognition models by introducing a novel learning paradigm called **Multimodal Pivot Learning Paradigm**. This approach emulates human-like discordance understanding, building upon the [PMF](https://github.com/yaoweilee/PMF) implementation.
@@ -64,6 +62,7 @@ After downloading, preprocess each dataset to `.json` files in the following for
   "label": "overall_label"
 }
 ```
+You can also configure the pre-training model and data set according to the format in `models_dir.txt` and `dataset_dir.txt`.
 
 ## Training Instructions
 
@@ -80,7 +79,5 @@ To start the model training, execute:
 ```bash
 python PMPL_main.py
 ```
-
 ---
-
 This README file should give a clear overview of the project setup, dataset requirements, and training procedure for PMPL. Let me know if you need further customization!
