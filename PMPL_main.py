@@ -578,6 +578,7 @@ if __name__ == '__main__':
         "file_path":args.file_path,
         "dataset":args.dataset,
     }
+    
     wandb.init(project="pmpl", 
            entity="chijanslewis-southwest-jiaotong-university",
            name="train1108",
