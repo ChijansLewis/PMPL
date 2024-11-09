@@ -359,14 +359,13 @@ def main(args, config):
     best = 0
     best_epoch = 0
 
-    wandb.config.update({"best_epoch" : best_epoch})
 
     print("Start training")
     start_time = time.time()
     label_dict = {'text':{},'img':{}}
     for epoch in range(0, max_epoch):
         continue_epoch_after_best = 10
-        wandb.config.update({"continue_epoch_after_best" : continue_epoch_after_best})
+        # wandb.config.update({"continue_epoch_after_best" : continue_epoch_after_best})
         if epoch - best_epoch > continue_epoch_after_best:
             break
         if not args.evaluate:
@@ -413,14 +412,22 @@ def main(args, config):
                         best = float(val_metrics['acc'])
                         best_epoch = epoch                  
                                             
-                    log_stats = {**{f'train_{k}': v for k, v in train_stats.items()},
-                                 **{f'val_{k}': v for k, v in val_stats.items()},
-                                 **{f'val_{k}': v for k, v in val_metrics.items()},
-                                 **{f'test_{k}': v for k, v in test_stats.items()},
-                                 **{f'test_{k}': v for k, v in test_metrics.items()},
-                                 'epoch': epoch,
-                                 'best_epoch':best_epoch,
-                                 }
+                    # 计算所有测试指标的和作为 combined_loss
+                    combined_loss = sum(test_stats.values()) + sum(test_metrics.values())
+
+                    # 更新 log_stats，加入 combined_loss
+                    log_stats = {
+                        **{f'train_{k}': v for k, v in train_stats.items()},
+                        **{f'val_{k}': v for k, v in val_stats.items()},
+                        **{f'val_{k}': v for k, v in val_metrics.items()},
+                        **{f'test_{k}': v for k, v in test_stats.items()},
+                        **{f'test_{k}': v for k, v in test_metrics.items()},
+                        'epoch': epoch,
+                        'best_epoch': best_epoch,
+                        'combined_loss': combined_loss  # 添加 combined_loss
+                    }
+
+                    # 记录 log_stats
                     wandb.log(log_stats)
 
 
@@ -463,13 +470,14 @@ def main(args, config):
     total_time = time.time() - start_time
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))
     print('Training time {}'.format(total_time_str))
-    wandb.config.update({"total_time" : total_time_str})
+    # wandb.config.update({"total_time" : total_time_str})
     if utils.is_main_process():
         with open(os.path.join(args.output_dir, "log.txt"), "a") as f:
             f.write("best epoch: %d" % best_epoch)
 
         with open(os.path.join(args.output_dir, "args_file.txt"), 'w') as f:
             json.dump(args.__dict__, f, indent=2)
+    wandb.finish()
     
 
 
@@ -563,28 +571,95 @@ if __name__ == '__main__':
 
     
     config_wandb = wandb.config
-    config_wandb = {
-        "lr":args.lr,
-        "prompt_length":args.prompt_length,
-        "seed":args.seed,
-        "mlp_hidden_sz":args.mlp_hidden_sz,
-        "n_fusion_layers":args.n_fusion_layers,
-        "beta":args.beta,
-        "use_gate":args.use_gate,
-        "use_adapter":args.use_adapter,
-        "use_ca_loss":args.use_ca_loss,
-        "all_cat":args.all_cat,
-        "use_prompt":args.use_prompt,
-        "output_dir":args.output_dir,
-        "file_path":args.file_path,
-        "dataset":args.dataset,
-    }
+    # 读取超参数配置文件
+    with open("./configs/crisismmd.yaml", "r", encoding="utf-8") as file:
+        config_wandb = yaml.safe_load(file)
     
     wandb.init(project="pmpl", 
            entity="chijanslewis-southwest-jiaotong-university",
            name="train1108",
            config=config_wandb)
-    print(args.output_dir)
+    # 读取 sweep 配置
+    with open("wandb/sweep_conf.yaml", "r", encoding="utf-8") as file:
+        sweep_config = yaml.safe_load(file)
+
+    # 执行 sweep
+    sweep_id = wandb.sweep(sweep_config, project='pmpl')
     os.makedirs(args.output_dir, exist_ok=True)
-    main(args, config)
-    wandb.finish()
+    def train_wandb():
+        class Config:
+            def __init__(self, config_wandb):
+                # 文件路径
+                self.train_file = config_wandb['train_file']
+                self.val_file = config_wandb['val_file']
+                self.test_file = config_wandb['test_file']
+                self.image_root = config_wandb['image_root']
+                self.dataset = 'crisismmd'
+                self.config = './configs'
+
+                # 模型和数据参数
+                self.hidden_size = config_wandb['hidden_size']
+                self.image_res = config_wandb['image_res']
+                self.batch_size_train = config_wandb['batch_size_train']
+                self.batch_size_test = config_wandb['batch_size_test']
+                self.max_text_len = config_wandb['max_text_len']
+                self.max_image_len = config_wandb['max_image_len']
+                self.distill = config_wandb['distill']
+                self.warm_up = config_wandb['warm_up']
+                self.vit = config_wandb['vit']
+                self.bert_config = config_wandb['bert_config']
+                self.drop_rate = config_wandb['drop_rate']
+                
+                # 优化器和学习率调度器
+                self.optimizer = config_wandb['optimizer']
+                self.schedular = config_wandb['schedular']
+                
+                # 新增配置
+                self.output_dir = config_wandb['output_dir']
+                self.load_path = config_wandb['load_path']
+                self.text_encoder = config_wandb['text_encoder']
+                self.evaluate = config_wandb['evaluate']
+                self.device = config_wandb['device']
+                self.seed = config_wandb['seed']
+                self.world_size = config_wandb['world_size']
+                self.dist_url = config_wandb['dist_url']
+                self.distributed = config_wandb['distributed']
+                self.prompt_length = config_wandb['prompt_length']
+                self.batch_size = config_wandb['batch_size']
+                self.type = config_wandb['type']
+                self.class_num = config_wandb['class_num']
+                self.test_only = config_wandb['test_only']
+                self.mmdlayer = config_wandb['mmdlayer']
+                self.ca_loss = config_wandb['ca_loss']
+                self.lr = config_wandb['lr']
+                self.train_dataset = config_wandb['train_dataset']
+                self.test_dataset = config_wandb['test_dataset']
+                self.dev_dataset = config_wandb['dev_dataset']
+                self.alpha = config_wandb['alpha']
+                self.beta = config_wandb['beta']
+                self.memory_length = config_wandb['memory_length']
+                self.shreshold = config_wandb['shreshold']
+                
+                # PMF模型参数
+                self.n_encoder = config_wandb['n_encoder']
+                self.n_fusion = config_wandb['n_fusion']
+                self.n_trans = config_wandb['n_trans']
+                self.mlp_hidden_sz = config_wandb['mlp_hidden_sz']
+                self.n_fusion_layers = config_wandb['n_fusion_layers']
+                self.file_path = config_wandb['file_path']
+                self.args_file = config_wandb['args_file']
+                
+                # 其他参数
+                self.use_adapter = config_wandb['use_adapter']
+                self.use_cls = config_wandb['use_cls']
+                self.use_gate = config_wandb['use_gate']
+                self.use_layer_gate = config_wandb['use_layer_gate']
+                self.use_ca_loss = config_wandb['use_ca_loss']
+                self.all_cat = config_wandb['all_cat']
+                self.use_prompt = config_wandb['use_prompt']
+                self.setting = config_wandb['setting']
+                self.model = config_wandb['model']
+        args1 = Config(config_wandb)
+        main(args1, config_wandb)
+    wandb.agent(sweep_id, train_wandb, count=5)
+    

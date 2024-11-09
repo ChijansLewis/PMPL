@@ -1,6 +1,6 @@
 train_file: './dataset/crisismmd/train.txt'
-val_file: './dataset/crisismmd/dev_text.txt'
-test_file: './dataset/crisismmd/test_image.txt'
+val_file: './dataset/crisismmd/dev.txt'
+test_file: './dataset/crisismmd/test.txt'
 
 image_root: './dataset/crisismmd'
 # hidden_size: 768

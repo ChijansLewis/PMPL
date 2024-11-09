@@ -4,3 +4,4 @@
 dataset/crisismmd/*
 **/models
 **/wandb
+**/output
