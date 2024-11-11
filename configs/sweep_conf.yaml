@@ -1,9 +1,9 @@
 program: PMPL_main.py
-name: sweep1
+name: sweep1110
 method: random
 metric:
-  goal: minimize
-  name: combined_loss
+  goal: maximize
+  name: combined_score
 parameters:
   seed:
     min: 42

@@ -33,10 +33,7 @@ import os
 
 import wandb
 
-warnings.filterwarnings("ignore")
-os.environ["CUDA_VISIBLE_DEVICES"] = '0,1,2,3,4,5,6,7'
-# os.environ["WANDB_API_KEY"] = YOUR_API_KEY
-os.environ["WANDB_MODE"] = "offline"
+
 
 def tsne_visualize(source_feature: torch.Tensor, target_feature: torch.Tensor, target_feature1: torch.Tensor, 
               filename: str, source_color='r', target_color='b', target_color1='g'):
@@ -412,10 +409,7 @@ def main(args, config):
                         best = float(val_metrics['acc'])
                         best_epoch = epoch                  
                                             
-                    # 计算所有测试指标的和作为 combined_loss
-                    combined_loss = sum(test_stats.values()) + sum(test_metrics.values())
 
-                    # 更新 log_stats，加入 combined_loss
                     log_stats = {
                         **{f'train_{k}': v for k, v in train_stats.items()},
                         **{f'val_{k}': v for k, v in val_stats.items()},
@@ -424,13 +418,27 @@ def main(args, config):
                         **{f'test_{k}': v for k, v in test_metrics.items()},
                         'epoch': epoch,
                         'best_epoch': best_epoch,
-                        'combined_loss': combined_loss  # 添加 combined_loss
                     }
+                    # 计算所有测试指标avg
+                    combined_score = (
+                            log_stats['test_f1_ma'] +
+                            log_stats['test_f1_we'] +
+                            log_stats['test_acc'] +
+                            log_stats['test_f1_mi']
+                        ) / 4
+                    print(combined_score)
+                    # log_stats_new = {
+                    #     **{f'train_{k}': v for k, v in train_stats.items()},
+                    #     **{f'val_{k}': v for k, v in val_stats.items()},
+                    #     **{f'val_{k}': v for k, v in val_metrics.items()},
+                    #     **{f'test_{k}': v for k, v in test_stats.items()},
+                    #     **{f'test_{k}': v for k, v in test_metrics.items()},
+                    #     'epoch': epoch,
+                    #     'best_epoch': best_epoch,
+                    #     'combined_score': combined_score  # 添加 combined_score
+                    # }
 
-                    # 记录 log_stats
-                    wandb.log(log_stats)
-
-
+                    
                     with open(os.path.join(args.output_dir, "log.txt"), "a") as f:
                         f.write(json.dumps(log_stats) + "\n")
 
@@ -477,12 +485,18 @@ def main(args, config):
 
         with open(os.path.join(args.output_dir, "args_file.txt"), 'w') as f:
             json.dump(args.__dict__, f, indent=2)
+    # 记录 log_stats
+    wandb.log({'combined_score': combined_score})
     wandb.finish()
     
 
 
 
 if __name__ == '__main__':
+    warnings.filterwarnings("ignore")
+    os.environ["CUDA_VISIBLE_DEVICES"] = '0,1,2,3,4,5,6,7'
+    # os.environ["WANDB_API_KEY"] = YOUR_API_KEY
+    os.environ["WANDB_MODE"] = "offline"
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', default='./configs')
     parser.add_argument('--dataset', default='crisismmd', choices=['hfir','mmimdb', 'crisismmd'], type=str)
@@ -552,23 +566,7 @@ if __name__ == '__main__':
     # config['test_file']=f'./dataset/{args.dataset}/'+args.test_dataset
 
     #args.output_dir = args.output_dir + f'{args.dataset}/{args.file_path}/' + f'{args.seed}_{args.lr}_{args.prompt_length}_{args.mlp_hidden_sz}_{args.n_fusion_layers}_{args.beta}_{args.seed}_{args.use_gate}_{args.use_adapter}_{args.use_layer_gate}_{args.use_ca_loss}_{args.all_cat}_{args.use_prompt}_{args.model}'
-    args.output_dir = (
-            args.output_dir 
-            + f"{args.dataset}/{args.file_path}/"
-            + f"{args.seed}_"
-            + f"{args.lr}_"
-            + f"{args.prompt_length}_"
-            + f"{args.mlp_hidden_sz}_"
-            + f"{args.n_fusion_layers}_"
-            + f"{args.beta}_"
-            + f"{args.use_gate}_"
-            + f"{args.use_adapter}_"
-            + f"{args.use_layer_gate}_"
-            + f"{args.use_ca_loss}_"
-            + f"{args.all_cat}_"
-            + f"{args.use_prompt}"
-        )
-
+    
     
     config_wandb = wandb.config
     # 读取超参数配置文件
@@ -577,7 +575,7 @@ if __name__ == '__main__':
     
     wandb.init(project="pmpl", 
            entity="chijanslewis-southwest-jiaotong-university",
-           name="train1109",
+           name="train1110",
            config=config_wandb)
     # 读取 sweep 配置
     with open("configs/sweep_conf.yaml", "r", encoding="utf-8") as file:
@@ -624,7 +622,21 @@ if __name__ == '__main__':
                                   'cooldown_epochs': 0}
                 
                 # 新增配置
-                self.output_dir = config_wandb['output_dir']
+                self.output_dir = (config_wandb['output_dir']
+                    + f"{args.dataset}/{args.file_path}/"
+                    + f"{args.seed}_"
+                    + f"{args.lr}_"
+                    + f"{args.prompt_length}_"
+                    + f"{args.mlp_hidden_sz}_"
+                    + f"{args.n_fusion_layers}_"
+                    + f"{args.beta}_"
+                    + f"{args.use_gate}_"
+                    + f"{args.use_adapter}_"
+                    + f"{args.use_layer_gate}_"
+                    + f"{args.use_ca_loss}_"
+                    + f"{args.all_cat}_"
+                    + f"{args.use_prompt}")
+
                 self.load_path = config_wandb['load_path']
                 self.text_encoder = config_wandb['text_encoder']
                 self.evaluate = config_wandb['evaluate']
