@@ -1,7 +1,8 @@
 .idea/*
 **/__pycache__
 **/ViLT
-dataset/crisismmd/*
+dataset/crisismmd/data_image/*
+dataset/twitter/data_image/*
 **/models
 **/wandb
 **/output

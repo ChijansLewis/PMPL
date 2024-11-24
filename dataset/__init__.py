@@ -11,6 +11,7 @@ try:
 except ImportError:
     pass
 from dataset.crisismmd_dataset import crisismmd_dataset
+from dataset.twitter_dataset import twitter_dataset
 from dataset.hfir_dataset import hfir_dataset
 from dataset.mmimdb_dataset import mmimdb_dataset
 
@@ -97,6 +98,22 @@ def create_dataset(dataset, config, args):
         val_dataset = crisismmd_dataset(args, 'dev', config['val_file'], config['test_file'], ['pixelbert'], image_root, config['image_res'])
         #test_dataset = crisismmd_dataset(args, 'test', config['test_file'], config['test_file'], transform, image_root, config['image_res'])
         test_dataset = crisismmd_dataset(args, 'test', config['test_file'], config['test_file'], ['pixelbert'], image_root, config['image_res'])
+        return train_dataset, val_dataset, test_dataset
+    elif dataset=='twitter':
+        image_root = './dataset/twitter'
+        #print(config['pixelbert'])
+        # transforms = {
+        #     'resize': lambda size: transforms.Resize((size, size)),
+        #     'totensor': lambda size: transforms.ToTensor(),
+        #     'normalize': lambda size: transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        # }  
+        # transform = ['resize', 'totensor', 'normalize']
+        #train_dataset = twitter_dataset(args, 'train', config['train_file'], config['test_file'], transform, image_root, config['image_res'])
+        train_dataset = twitter_dataset(args, 'train', config['train_file'], config['test_file'], ['pixelbert'], image_root, config['image_res'])
+        #val_dataset = twitter_dataset(args, 'dev', config['val_file'], config['test_file'], transform, image_root, config['image_res'])
+        val_dataset = twitter_dataset(args, 'dev', config['val_file'], config['test_file'], ['pixelbert'], image_root, config['image_res'])
+        #test_dataset = twitter_dataset(args, 'test', config['test_file'], config['test_file'], transform, image_root, config['image_res'])
+        test_dataset = twitter_dataset(args, 'test', config['test_file'], config['test_file'], ['pixelbert'], image_root, config['image_res'])
         return train_dataset, val_dataset, test_dataset
     elif dataset=='hfir':
         image_root = '../dataset/hfir/image'

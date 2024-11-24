@@ -1,6 +1,6 @@
 train_file: './dataset/twitter/train.txt'
 val_file: './dataset/twitter/dev.txt'
-test_file: './dataset/twitter/test.json'
+test_file: './dataset/twitter/test.txt'
 
 image_root: './dataset/twitter'
 # hidden_size: 768
@@ -28,7 +28,7 @@ output_dir: './output/'
 load_path: ''
 text_encoder: 'bert-base-uncased'
 evaluate: false
-device: 'cuda:2'
+device: 'cuda:0'
 seed: 42
 world_size: 1
 dist_url: 'env://'
@@ -43,7 +43,7 @@ mmdlayer: 0
 ca_loss: false
 lr: 1e-5
 train_dataset: 'train.txt'
-test_dataset: 'test.json'
+test_dataset: 'test.txt'
 dev_dataset: 'dev.txt'
 alpha: 0.7
 beta: 0.7
