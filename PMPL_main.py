@@ -98,6 +98,8 @@ def train(model, data_loader, optimizer, tokenizer, epoch, warmup_steps, device,
             (images, text, labels, text_labels, image_labels, information_label, img_id) = data
         elif args.dataset == 'twitter':
             (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+        elif args.dataset == 'rebuttal':
+            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
         elif args.dataset == 'hfir':
             (images, text, labels, text_labels, image_labels, information_label, img_id) = data
         labels = labels.to(device, non_blocking=True)
@@ -188,6 +190,8 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
             (images, text, labels, text_labels, image_labels, information_label, img_id) = data
         elif args.dataset == 'twitter':
             (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+        elif args.dataset == 'rebuttal':
+            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
         elif args.dataset == 'hfir':
             (images, text, labels, text_labels, image_labels, information_label, img_id) = data
         labels = labels.to(device, non_blocking=True)
@@ -200,7 +204,7 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
         ret = model(images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=True, Train=False)
         
 
-        if args.dataset == 'crisismmd' or args.dataset == 'hfir' or args.dataset == 'twitter':
+        if args.dataset == 'crisismmd' or args.dataset == 'hfir' or args.dataset == 'twitter' or args.dataset == "rebuttal":
             prediction = ret['logits']
         elif args.dataset == 'mmimdb':
             prediction = ret['logits']
@@ -239,7 +243,7 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
         informative = torch.cat(informative, dim=0)
         no_informative_label = torch.cat(no_informative_label, dim=0)
         no_informative = torch.cat(no_informative, dim=0)
-    if args.dataset == 'crisismmd' or args.dataset == 'hfir' or args.dataset == 'twitter':
+    if args.dataset == 'crisismmd' or args.dataset == 'hfir' or args.dataset == 'twitter' or args.dataset == 'rebuttal':
         print("It's All!")
         f1_mi = f1_score(end_labels.cpu(), torch.argmax(preds.cpu(), -1), average='micro')
         f1_ma = f1_score(end_labels.cpu(), torch.argmax(preds.cpu(), -1), average='macro')
@@ -481,7 +485,7 @@ def main(args, config):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', default='./configs')
-    parser.add_argument('--dataset', default='twitter', choices=['hfir','mmimdb', 'crisismmd', 'twitter'], type=str)
+    parser.add_argument('--dataset', default='rebuttal', choices=['hfir','mmimdb', 'crisismmd', 'twitter', 'rebuttal'], type=str)
     # 先解析 `config` 和 `dataset` 参数，用于加载配置文件
     args, remaining_args = parser.parse_known_args()
     # 加载配置文件

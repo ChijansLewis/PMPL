@@ -113,5 +113,6 @@ vqa-python
 watchdog
 werkzeug
 wrapt
+wandb
 yacs
 yarl

@@ -1,14 +1,14 @@
-train_file: './dataset/twitter/train.txt'
-val_file: './dataset/twitter/dev.txt'
-test_file: './dataset/twitter/test.json'
+train_file: './dataset/rebuttal/train.txt'
+val_file: './dataset/rebuttal/dev.txt'
+test_file: './dataset/rebuttal/test.txt'
 
-image_root: './dataset'
+image_root: './dataset/rebuttal/'
 # hidden_size: 768
 image_res: 224 
 #image_res: [224, 224]  # 或者 image_res: (224, 224)
 # image_res: 384
 batch_size_train: 32
-batch_size_test: 64
+batch_size_test: 32
 max_text_len: 512
 # alpha: 0.4
 max_image_len: -1
@@ -28,13 +28,13 @@ output_dir: './output/'
 load_path: ''
 text_encoder: 'bert-base-uncased'
 evaluate: false
-device: 'cuda:2'
-seed: 42
+device: 'cuda:5'
+seed: 255
 world_size: 1
 dist_url: 'env://'
 distributed: false
 prompt_length: 16
-batch_size: 64
+batch_size: 32
 type: 'train'
 class_num: 24
 test_only: false
@@ -43,7 +43,7 @@ mmdlayer: 0
 ca_loss: false
 lr: 1e-5
 train_dataset: 'train.txt'
-test_dataset: 'test.json'
+test_dataset: 'test.txt'
 dev_dataset: 'dev.txt'
 alpha: 0.7
 beta: 0.7
