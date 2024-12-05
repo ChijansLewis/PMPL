@@ -1,6 +1,6 @@
-train_file: './dataset/rebuttal/train-of.txt'
-val_file: './dataset/rebuttal/dev-of.txt'
-test_file: './dataset/rebuttal/test-of.txt'
+train_file: './dataset/rebuttal/train-sa.txt'
+val_file: './dataset/rebuttal/dev-sa.txt'
+test_file: './dataset/rebuttal/test-sa.txt'
 
 image_root: './dataset/rebuttal/'
 # hidden_size: 768
@@ -17,18 +17,18 @@ warm_up: False
 vit: "vit_base_patch32_384"
 bert_config: 'configs/config_bert.json'
 drop_rate: 0.1
-optimizer_lr: 1e-3
-schedular_lr: 1e-3
+optimizer_lr: 1e-30
+schedular_lr: 1e-30
 warmup_lr: 9e-5
-optimizer: {opt: adamW, lr: 1e-3, weight_decay: 0.02}
-schedular: {sched: cosine, lr: 1e-3, epochs: 30, min_lr: 1e-7, decay_rate: 1, warmup_lr: 9e-5, warmup_epochs: 1, cooldown_epochs: 0}
+optimizer: {opt: adamW, lr: 1e-30, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-30, epochs: 30, min_lr: 1e-70, decay_rate: 1, warmup_lr: 9e-5, warmup_epochs: 3, cooldown_epochs: 1}
 
 # new
 output_dir: './output/'
 load_path: ''
 text_encoder: 'bert-base-uncased'
 evaluate: false
-device: 'cuda:6'
+device: 'cuda:3'
 seed: 42
 world_size: 1
 dist_url: 'env://'
@@ -36,15 +36,15 @@ distributed: false
 prompt_length: 16
 batch_size: 32
 type: 'train'
-class_num: 4
+class_num: 7
 test_only: false
 hidden_size: 768
 mmdlayer: 0
 ca_loss: false
 lr: 1e-5
-train_dataset: 'train-of.txt'
-test_dataset: 'test-of.txt'
-dev_dataset: 'dev-of.txt'
+train_dataset: 'train-sa.txt'
+test_dataset: 'test-sa.txt'
+dev_dataset: 'dev-sa.txt'
 alpha: 0.7
 beta: 0.7
 memory_length: 20

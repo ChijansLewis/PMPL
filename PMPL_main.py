@@ -219,7 +219,7 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
             preds = prediction.cpu()
             if args.type == 'train' and args.model != 'pipeline' and args.dataset != 'mmimdb':
                 for i in range(len(information_label)):
-                    if information_label[i] == 1:
+                    if information_label[i] == 3:
                         informative_label.append(labels[i].squeeze().unsqueeze(0))     
                         informative.append(prediction[i].squeeze().unsqueeze(0))
                     else:
@@ -231,7 +231,7 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
             preds = torch.cat([preds, prediction.cpu()], dim=0)
             if args.type == 'train' and args.model != 'pipeline' and args.dataset != 'mmimdb':
                 for i in range(len(information_label)):
-                    if information_label[i] == 1:
+                    if information_label[i] == 3:
                         informative_label.append(labels[i].squeeze().unsqueeze(0))     
                         informative.append(prediction[i].squeeze().unsqueeze(0))
                     else:

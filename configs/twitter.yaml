@@ -13,40 +13,40 @@ max_text_len: 512
 # alpha: 0.4
 max_image_len: -1
 distill: True
-warm_up: False
+warm_up: True
 vit: "vit_base_patch32_384"
 bert_config: 'configs/config_bert.json'
 drop_rate: 0.1
-optimizer_lr: 1e-3
-schedular_lr: 1e-3
+optimizer_lr: 1e-20
+schedular_lr: 1e-20
 warmup_lr: 9e-5
-optimizer: {opt: adamW, lr: 1e-3, weight_decay: 0.02}
-schedular: {sched: cosine, lr: 1e-3, epochs: 30, min_lr: 1e-7, decay_rate: 1, warmup_lr: 9e-5, warmup_epochs: 1, cooldown_epochs: 0}
+optimizer: {opt: adamW, lr: 1e-20, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-20, epochs: 30, min_lr: 1e-30, decay_rate: 1, warmup_lr: 9e-5, warmup_epochs: 2, cooldown_epochs: 1}
 
 # new
 output_dir: './output/'
 load_path: ''
 text_encoder: 'bert-base-uncased'
 evaluate: false
-device: 'cuda:0'
+device: 'cuda:6'
 seed: 42
 world_size: 1
 dist_url: 'env://'
 distributed: false
 prompt_length: 16
-batch_size: 64
+batch_size: 32
 type: 'train'
 class_num: 3
 test_only: false
 hidden_size: 768
 mmdlayer: 0
 ca_loss: false
-lr: 1e-5
+lr: 1e-6
 train_dataset: 'train1.txt'
 test_dataset: 'test1.txt'
 dev_dataset: 'dev1.txt'
-alpha: 0.7
-beta: 0.7
+alpha: 0.1
+beta: 0.1
 memory_length: 20
 shreshold: 0.5
 
