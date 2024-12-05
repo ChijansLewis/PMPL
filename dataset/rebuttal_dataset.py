@@ -95,7 +95,7 @@ class rebuttal_dataset(Dataset):
 
                 examples.append(InputExample(text=text, img_id=img_id, text_label=text_label, image_label=image_label, information_label=information_label, label=label,id=id))
                 id += 1
-                if information_label == 3:
+                if information_label == 1:
                     infor_sample.append(1)
                 else:
                     notinfor_sample.append(1)
@@ -121,7 +121,7 @@ class rebuttal_dataset(Dataset):
                         #     examples.append(InputExample(text=text, img_id=img_id, text_label=text_label, image_label=image_label, information_label=information_label, label=label,id=id))
                         #     id += 1
                         id += 1
-                        if information_label == 3:
+                        if information_label == 1:
                             infor_sample.append(1)
                         else:
                             notinfor_sample.append(1)

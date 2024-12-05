@@ -118,7 +118,7 @@ def create_dataset(dataset, config, args):
         test_dataset = twitter_dataset(args, 'test', config['test_file'], config['test_file'], ['pixelbert'], image_root, config['image_res'])
         return train_dataset, val_dataset, test_dataset
     elif dataset=='rebuttal':
-        image_root = './dataset/rebuttal'
+        image_root = './dataset/rebuttal/'
         #print(config['pixelbert'])
         # transforms = {
         #     'resize': lambda size: transforms.Resize((size, size)),

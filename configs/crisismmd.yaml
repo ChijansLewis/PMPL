@@ -36,7 +36,7 @@ distributed: false
 prompt_length: 16
 batch_size: 64
 type: 'train'
-class_num: 24
+class_num: 7
 test_only: false
 hidden_size: 768
 mmdlayer: 0

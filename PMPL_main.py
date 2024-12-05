@@ -250,10 +250,13 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
         f1_we = f1_score(end_labels.cpu(), torch.argmax(preds.cpu(), -1), average='weighted')
         acc = accuracy_score(end_labels.cpu(), torch.argmax(preds.cpu(), -1))
         metrics = {'f1_mi':f1_mi, 'f1_ma':f1_ma, 'f1_we':f1_we, 'acc':acc}
+        print(torch.argmax(preds.cpu(), -1))
+        print(end_labels.cpu())
         print('f1_mi',f1_mi)
         print('f1_ma',f1_ma)
         print('f1_we',f1_we)
         print('acc',acc)
+        input()
     if args.dataset == 'mmimdb':
         print("It's All!")
         f1_ma = f1_score(end_labels.cpu(), preds.cpu(), average='macro')

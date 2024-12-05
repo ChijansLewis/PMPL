@@ -1,0 +1,799 @@
+{"id": "data_image/image_ (3129).jpg", "text": "SOMEONE JUST BLURTED THE SHIP SINKS IN THE MOVIE TITANIC.GEEZ. SPOILER ALERT!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (547).jpg", "text": "THE INTERNET .YOU", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (114).jpg", "text": "TO THE MOON .Time to buy is now!", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (297).jpg", "text": "TEACHERS WAKING UP.IN MAY", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3812).jpg", "text": "If nitish can do break up with Lalu and come back to Modi,why can't you?.-Me to my Ex.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (624).jpg", "text": "life .me", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2307).jpg", "text": "It's pretty clear that Vladimir Putin would rather have a puppet in the White House than a real president..-Hillary Clinton at the third  debate .Trump is Putin's little puppet.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (505).jpg", "text": "NEW POTENTIAL CUSTOMERS.YOUR ORGANIZATION.YOUR LOYAL CUSTOMERS", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1852).jpg", "text": "I REINCARNATED.BEFORE I DIED", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3536).jpg", "text": "If a priest can throw holy water on a person who is possessed without their consent,Is it ok for me to.....I think you know where I'm going with this.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1293).jpg", "text": "RAPE CULTURE.IT'S WHAT EVERY OXYMORONIC FEMINIST IS WEARING THIS YEAR.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2857).jpg", "text": "When you see a funny meme and the caption says tag ur friends but you have no friends", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (288).jpg", "text": "When the client wants to combine options 1 and 2.SHORSE", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (446).jpg", "text": "One man's white trash .Is another man's white treasure..", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (2744).jpg", "text": "DECRIBE DONALD TRUMP.IN ONE WORD.#President", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2666).jpg", "text": "AH,SO....THIS SEEMS TO BE THE LAP,THINGY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3190).jpg", "text": "I DONT ALWAYS LISTEN TO COUNTRY MUSIC.BUT WHEN I DO, I TURN IT DOWN WHEN I AM CLOSE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3746).jpg", "text": "WHEN YOUR LAST CHARACTER WAS SUCH AN ASSHOLE.THAT PLAYING HITLER IS REFRESHING CHANGE OF PACE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2099).jpg", "text": "Thanks a lot.Brian", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1756).jpg", "text": "MEIN DARLING.JEW MUST BE THIS TALL TO REICHT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2792).jpg", "text": "FACEBOOK I'M YOUR CREATOR STOP TELLING ME TO SPELL-CHECK MY FUCKING LAST NAME!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (576).jpg", "text": "", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (219).jpg", "text": "The book:.The movie:", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1861).jpg", "text": "Rare image of Kim Jong il burning in hell", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1123).jpg", "text": "How was the moon created?By Chuck Norris hitting a golf ball", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2284).jpg", "text": "WHEN YOU WANT TO GO HIKING BUT SLAV SQUAT IS LIFE", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (2580).jpg", "text": "DESIGN IS NOT JUST WHAT IT LOOKS AND FEELS LIKE..DESIGN IS HOW IT WORKS..-STEVE JOBS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (852).jpg", "text": "Where does this girl live?.We're talking about a woman who's actually gotten Barney Stinson to commit, I'm guessing Narnia", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3404).jpg", "text": "I'm not great at advice,can I interest you in a sarcastic comment?.-Chandler Bing", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1689).jpg", "text": "Putin has a slogan too....Make Russia Great Agian! .TEANDERTHAL PARTY.Crooked Hillary, Crooked Hillary, Crooked Hillary, Crooked Hillary!", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (1893).jpg", "text": "Here's Liam teaching Louis how to fish.......And here's Liam immediately regretting that decision.IM LAUGHING___.onedirection harrystyles niallhoran limampayne louistomlinson zaynmalik larrystylison troyesivan troye", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2083).jpg", "text": "WHAT IF I TOLD YOU .THAR HO MATTER HOW MUCH INFORMATION YOU SHARE WITH FRIENDS ABOUT THE CORRUPT GOVERNMENT AND OUR LIBERTIES DISAPPEARUBG,97%JUST WON'T CARE UNTIL TOO LATE&THEN THEY WILL WONDER HOW DID THEY ALLOW THIS TO HAPPEN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2449).jpg", "text": "When you and the squad all break the seal at the same time.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1183).jpg", "text": "Happy Birthday to Hugh Jackman..Who turns 48 today..Hugh Jackman~Deadpool", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3099).jpg", "text": "YOU MEAN TO TELL ME.BIGG BOSS IS BETTER THAN KBC!!!.The original photo", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1570).jpg", "text": "It was blissful oblivion, better than fire whiskey; she was the only real thing in the world...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2922).jpg", "text": "I CAN SEE.NOW I CAN NAZI", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2749).jpg", "text": "NO WIFI PASSWORD FOR ISIS!!!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1978).jpg", "text": "How to win any arguement.1.Be a woman.2.That's it.3.You win.4.Congratulations", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (853).jpg", "text": "FOREVER AWESOME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (30).jpg", "text": "LOOK AT ME.I'M A YOUNG,VIBRANT HAM", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (1032).jpg", "text": "JINGLE BELLS MY BOX SMELLS.I'LL JUST USE THE FLOOR!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3599).jpg", "text": "WHEN SHE SAD....I MAKE IT BETTER!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1440).jpg", "text": "How you look at her when y'all first  meet vs how you look at her after 2  years bc you love her and she makes  you happy ..himal :.kushandwizdom: .I love these wholesome memes  .So wholesomel  .I love my girlfriend via  ./ r/wholesomememes", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1816).jpg", "text": "LET THE GAMES BEGIN.Let the Games Begin-joker.Meme Generator", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2999).jpg", "text": "Faggot Gamer.Liam.Sees you die in game, dies with you", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2839).jpg", "text": "WHITE PRIVILEGE IS BEING GURIOUS AT BEYOUNCE'S SUPERBOWL SHOW BECAUSE HER DANCERS DRESSED LIKE BLACK PANTHERS, WHILE IGNORING THAT WHITE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1878).jpg", "text": "YOU HAD ONE FUCKING JOB .LIAM!!!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1163).jpg", "text": "LOST MY TRUCK..ON TO WIFE&DOG.#FUSTERCLUCKUSA", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2249).jpg", "text": "AVENGERS 2 !!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3585).jpg", "text": "Nnot a cell phone in sight.just living in the moment.absolutely beautiful,wish we could go back", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (377).jpg", "text": "S D", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1021).jpg", "text": "The I don't watch The Big Bang Theory because I'm smart!starter pack.Science 10.POSTS INSULTING MEME.THINKS HE'S COOL.The you don't watch the Big Bang Theory???starter pack.The smug redditor I don't like The Big Bang Theory cuz I'm smart!!1!1!!starter pack.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3504).jpg", "text": "Is this a cat or a snail?", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (2530).jpg", "text": "YOU MAY THINK I GIVE A FUCK.BUT I ASSURE YOU, I GIVE NONE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2909).jpg", "text": "When you realize LoTR memes have now been around for a long time..I was there.3,000 memes ago....", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3961).jpg", "text": "FBI; We need to start updating our facial recognition database.Facebook: We could do a 10 year challenge and users will do it for you.FBI:", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (814).jpg", "text": "IN AVENGERS: COULSON DIES BUT NOT REALLY.IN THOR 2: LOKI DIES BUT NOT REALLY.IN CAP 2:FURY DIES.BUT NOT REALLY.IN CIVIL WAR: RHODEY DIES.BUT NOT REALLY.AND IN AGE OF ULTRON:.QUICKSILVER.......OH..NEVERMIND.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3424).jpg", "text": "Why Is Chandler Bing So Relatable", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3561).jpg", "text": "If men could get pregnant,abortion clinics would be like Starbucks.There would be two on every block and four in every airport", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3251).jpg", "text": "PERSECUTES GAYS.ENTERS ANOTHER GOUNTRY THROUGH THE BACK DOOR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1259).jpg", "text": "DRUNK BABY MEME?.SURE, HAVE A 'LIKE'", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (847).jpg", "text": "SANTA PUT ME ON THE NAUGHTY LIST.YOU PUT THAT FAT BASTARD ON THE HIT LIST.SHUT UP I DIDN'T PUT YOU.MOTHERFUCKING DUMBASS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2404).jpg", "text": "I ACCIDENTALLY UESD A SWEAR WORD.AND L KNOW MY MOM HEARD IT", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3911).jpg", "text": "I WNO'T BE IMPRESSED WITH TECHNOLOGY UNTIL I CAN DOWNLOAD A BEER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2611).jpg", "text": "RAN INTO MY EX.SHE GOT FAT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3857).jpg", "text": "WHY THE FUCK ARE COMMERCIALS LOUDER THAN THE TV SHOW", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2453).jpg", "text": "MAKES SEXIST JOKE IS HALF SERIOUS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (579).jpg", "text": "YOU ARE THE SUN", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (3613).jpg", "text": "CHUCK PASSED KIDNEY STONES LAST WEEK.ALL SIX INFINITY STONES", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3165).jpg", "text": "COME.WORSHIP.WITH US.AT THE.GAZEBO.Even Dr.Evil thinks that's too many quotes", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2178).jpg", "text": "THE BEST ECLIPSE EVER!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (985).jpg", "text": "This is Bill.Bill sees something on the internet that offends him.Bill gets over it and moves on with his life.Be like Bill", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (3725).jpg", "text": "Hurricane Harvey", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2549).jpg", "text": "two types of I like sports girls", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (780).jpg", "text": "How's life?.Me:", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2961).jpg", "text": "IF A TREE FALLS IN WASHINGTON.DOES ANYBODY HEAR IT OR IS IT OBAMA'S FAULT?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (77).jpg", "text": "depression.me.Tom Jerry Memes Rinterest Tom And Jerry Memes", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3943).jpg", "text": "IN MY COUNTRY IS YOU ENTER THE WOMEN SECTION OF THE METRO YOU GET ARRESTED.BUT WOMEN CAN FREELY ENTER THE MAN SECTION AND TAKE YOUR SEAT AND YOU HAVE TO STAND THEN.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1746).jpg", "text": "THIS IS RUDOLF HESS. HE EDITED MEIN KAMPF FOR ADOLF HITLER..THAT MAKES HIM....THE FIRST GRAMMAR NAZI..(GC)NOt debunking any leftist points. Simply found it funny.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1812).jpg", "text": "Fact 1406.Superhero_Fix.Including the extended cut, The Joker has 12 minutes of screen time, and only 50 lines of dialogue in Suicide Squad.Rate Jared Leto's Joker from 1-10. -thejoker justiceleague.superman batman dc", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2236).jpg", "text": "BORN TO BEE WILD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1604).jpg", "text": "is this a pair of socks?", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1266).jpg", "text": "YOU WANT TO PUT THAT THERMOMETER WHERE?!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1301).jpg", "text": "FEMINISTS ARE MEAN,.ABRASIVE,AND ANGRY PEOPLE.TROLLS/R/FEMINISM", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (317).jpg", "text": "Just sucking today's bullshit out of my head.Free WI-Fi.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (87).jpg", "text": "SHARING KNOWLEDGE IS POWER", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (742).jpg", "text": "AFTER BETRAYING THEIR VOTERS THE REPUBLICAN PARTY OPTED TO CHANGE IT'S MASCOT TO THE JELLYFISH.REPUBLICAN.THEY'RE BRAINLESS, SPINELESS AND FULL OF POISON", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (376).jpg", "text": "This new meme format.People who sort by new", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 4}
+{"id": "data_image/image_ (375).jpg", "text": "LIEUTENANT DAN!.YOU GOT NEW LEGS!", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2776).jpg", "text": "HEALING FACTOR.CANT FIX MY BROKEN HEART", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3865).jpg", "text": "RIGHT TO BEAR ARMS?.IN SOVIET RUSSIA. WE HAVE RIGHT TO WHOLE BEAR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1576).jpg", "text": "That awkward moment when you don't realize you're the third wheel", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1192).jpg", "text": "YOU HAD MY CURIOSITY,BUT NOW YOU HAVE MY ATTENTION.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3805).jpg", "text": "WHEN ITS VALENTINES DAY AND YOU HAVE MISOGYNY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3872).jpg", "text": "BLACK MAN ASKS FOR DIRECTIONS IT'S TEO BLOCKS EAST OF THE POLICE STATION. YOU KNOW WHERE THAT IS RIGHT?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2788).jpg", "text": "AND THENTHEY SAID.I DON'T GIVE YOU PERMISSION", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1475).jpg", "text": "HUMANS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2860).jpg", "text": "I once had a Lizard and a Fish as pets..", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2630).jpg", "text": "INSTAGRAN.When Old People and Technology Collide.Delete  COOKIES? But I  Just BAKED Them!.Rosie Ryder", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1490).jpg", "text": "You Disrespect The CAT.You Disrespect The Family", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1092).jpg", "text": "YOU CALLED ME JACKIE CHAN,EH?NO TIP FOR YOU!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3351).jpg", "text": "U MAD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2778).jpg", "text": "THAT AWKWARD MOMENT WHEN:.YOUR POWER IS FLIGHT.BUT YOU DIE IN A PLANE CRASH.YOUR POWER MAKES EXPLOSIONS.BUT YOU DIE IN AN EXPLOSION.YOU CAN'T DIE....BUT YOU DIE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2677).jpg", "text": "YOU KNOW WHAT REALLY GRINDS MY GEARS?.PEOPLE TRYING TO GET FREE KARMA WITH THE THIRD WORLD SUCCESS KID AFTER EVERY MAJOR SPORT CHAMPIONSHIP.Do we really have to do it every time?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (798).jpg", "text": "SH  K", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (945).jpg", "text": "WHAT HAPPENED.THE MAJOR MOTION PICTURE RELEASE.IMPOSSIBLE TO DEFEND..WE HAVE IT ALL..THE NAIL IN MANY COFFINS.NO FREE PASSES..TOXIC TO THOSE CONNECTED..BOOM..DALLAS GALWAY DMZ KOREA.THEY NEVER THOUGHT SHE WOULD LOSE.SPRING 2018 RELEASE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1043).jpg", "text": "accidentally bought an Australian cat:(", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2447).jpg", "text": "THIS GUY CAN'T SING AND WON'T STOP DANGING...HAVE HIM.ALRIGHT A HAPPY MEAL", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3586).jpg", "text": "i'm obsessed with these memes.indie/alternative wlw.ppl who are afraid of growing up.lorde.ppl who hate their hometown.indie/alternative mlm", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3425).jpg", "text": "Use puns on facebook and no one bats an eye.Use harry potter and everyone freaks out", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2373).jpg", "text": "NOBODY CALLED DONALD TRUMP A RACIST.......UNTIL HE CHALLENGED.HILLARY CLINTON FOR THE PRESIDENCY..THE PATRIOT POST.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (922).jpg", "text": "We review our ideas Thank you 2017", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2463).jpg", "text": "Don't get mad when men post sexist memes.After all.thre's a reason they're chronically single", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (646).jpg", "text": "Life spiraling out of control.Garlic bread", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2462).jpg", "text": "Dosen't belive in Climate Change .Believes in Noah's Ark", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2414).jpg", "text": "WHEN FLEX SEAL.FAILS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (109).jpg", "text": "NEXT STOP:.KNOWLEDGE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1467).jpg", "text": "When your girlfriend pissed you off cause she was hungry,now you're mad and she's just fine.Femals..JustGirlyThings", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3921).jpg", "text": "A woman's heart is a deep ocean of secrets..Titanic", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (2746).jpg", "text": "When you ask a Mexican what he thinks of Trump..FrijolesYNopales.com", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3081).jpg", "text": "OH SWEET!.THIS WALL HAS FREE WIFI", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (525).jpg", "text": "How many houseplant addicts does it take to change a light bulb?", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (3083).jpg", "text": "HE CAUGHT ME CHEATING .IT'S HIS FAULT FOR SPYING ON ME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1937).jpg", "text": "Your reaction when you enter your room after your mom cleaned it:.I HAVE NO MEMORY OF THIS PLACE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (381).jpg", "text": "I AM THE QUEEN OF FRANCE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1617).jpg", "text": "Queen Elizabeth dresses like she's about to go to prom with Steve Harvey", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (622).jpg", "text": "you .my undying love", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1774).jpg", "text": "I think everybody should get rich and famous and do everything they ever dreamed of so they will know that it's not the answer..-Jim Carrey", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2359).jpg", "text": "IS THAT......COULD IT BE..", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1423).jpg", "text": "HOW TO PRANK  .YOUR GIRLFRIEND  .This is the best way to ruin a  romantic holiday  Credit: .BarryBeeTV", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3205).jpg", "text": "This portrait is not of the worst president ever..This is not even of the worst president of this century.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1683).jpg", "text": "LIKE IF YOUAGREE..CROOKED HILLARY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3057).jpg", "text": "THAT MOMENT WHEN THE COFFEE FINALLY KICKS IN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (651).jpg", "text": "Fish slippers.Your argument is invalid", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (1975).jpg", "text": "Great minds thinks alike... but dirty minds work together!.Fb: Heart Touching Fun", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1960).jpg", "text": "DEAR SLUUP,.I'm sorry i hated you when i was a young kid.Right now i love you very much and i cherish every moment with you.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3044).jpg", "text": "ROMNEY.YOU MY BITCH NOW", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2783).jpg", "text": "I dated a weatherman once when we broke up I ruined his career.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2524).jpg", "text": "I CAME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3442).jpg", "text": "BUT I'M NOT A ....LIES FROM A SEXIST!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3492).jpg", "text": "WHEN YOU CATCH YOUR BROTHER WATCHING ANIME", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2393).jpg", "text": "#PAPPUSODUFFER.HE IS AN EXPERT WITHOUT KNOWLEDGE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3573).jpg", "text": "When I let a day go by without talking to you,that day it's just no good..Loved this side of Barney. HIMYM ", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2104).jpg", "text": "GETS 3D PRINTED.LOOKS LIKE A DEFORMED VERSION OF THE JOKER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (512).jpg", "text": "SO THIS IS HOW IT FEELS.TO BE DESSERTED", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1297).jpg", "text": "CALLS ALL MEN SEX CRAZED PIGS COMPLAINS ABOUT HOW ALL MEN GENERALIZE WOMEN.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (634).jpg", "text": "SIR, ARE YOU SURE.VIDEO KILLED THE RADIO STAR", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (3225).jpg", "text": "CHUCK NORRIS NEVER COMPLETES CUSTODIAN INTERVIEW FORMS.BECAUSE CHUCK NORRIS NEVER SUBMITS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1110).jpg", "text": "You know what?Girls don't like it when I start talking about science..That's not specific to girls.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2026).jpg", "text": "The face you make when they are chanting 'USA' and you can't join in because you don't know how to spell it!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1372).jpg", "text": "What do you got here? Magauines, ? .You don't know how long  we're gonnabe, in here! .We may have to  repopulate. the Earth. .And condoms are  the way to do that", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (13).jpg", "text": "wow.much cake.such delishus.do want.good filled.amaze.wow", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (1891).jpg", "text": "IF YOU TAG POST NSFW AND ITS NOT NSFW, I WILL FIND YOU .AND I WILL KILL YOU", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (502).jpg", "text": "AN IDIOT SANDWICH", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1928).jpg", "text": "And your name is?.You give me your mane,coffee master,and I shall give you mine.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3728).jpg", "text": "YOU HAD ONE JOB", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2885).jpg", "text": "WHAT RAIDER FANS SEE....WHAT THE WORLD SEE'S..", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2333).jpg", "text": "ASIAN PARENTS BE LIKE....LING LING, DINNER IS READY", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (3383).jpg", "text": "Chuck Norris?.You mean the bearded lady that does my laundry.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (542).jpg", "text": "A British Bee.A US Bee", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1456).jpg", "text": "SO I'VE NEVER HAD A GIRLFRIEND.BUT I HAVE NO EX-GIRLFRIENDS,SO I GOT THAT GOIN' FOR ME WHICH IS NICE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2308).jpg", "text": "putin was fairly elected .And Other Hilarious Jokes You Can Tell Yourself.Volume II", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2823).jpg", "text": "I JUST FARTED.THAT'S AS CLOSE TO ME GIVING A SHIT,AS YOU'RE GOING TO GET", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1340).jpg", "text": "When ur friend makes mean joke  .you love it cuz ur also evil", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2294).jpg", "text": "VLADIMIR PUTIN.NOT KNOWN FOR GIVING A FUCK", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2876).jpg", "text": "BEING MEAN TO THE QB.15 YARD PENALTY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (70).jpg", "text": "Dads watching TV:.Dads when you change the channel", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3319).jpg", "text": "KIM JONG-UN LOOKING AT SUN.SUN ONLY FALLS ON LIM JONG-UN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3352).jpg", "text": "When the school shooter attempts to yell Hey Siri while you're hiding but you have an Android, and immmediately after yells Ok Google", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1567).jpg", "text": "lt's nice that Voldemort always waits until the end of the school year to try and kill Harry..Despite his flaws,Voldemort really cares about Harry's education.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3379).jpg", "text": "Kim Jong Un meets with North Korea heads of state.__ only accept the mightiest of fascists", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1270).jpg", "text": "IT'S OKAY, BRO!.You'll get to drink again", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2579).jpg", "text": "I'M SO PROUD OF YOU", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1903).jpg", "text": "I had fun once.It was awful.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2111).jpg", "text": "GETS SURPRISED BY MORNING WAKE UP SEX IN PRISON", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1573).jpg", "text": "I LEARNT A NEW MAGIC TRICK.WHAT'S IT LIKE?.IF U JUST BEND OVER,MY WAND WOULD JUST DISAPPEAR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2483).jpg", "text": "I mean, a song about putting a", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1254).jpg", "text": "Two and a half Skrillion Dollars.Silly Dr. Evil always dropping the bass", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3309).jpg", "text": "LOGIN.X-MEN EVOLUTION", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (99).jpg", "text": "KNOWLEDGE IS POWER.WHEN I ANSWER A QUESTION RIGHT ON JEOPARDY,BECAUSE . IT WAS IN A BOOK I'M READING", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 4}
+{"id": "data_image/image_ (3260).jpg", "text": "YEAN .TECHNOLOGY...BITCH!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2750).jpg", "text": "WE SHALL OVER COMB TROMP 2016", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (819).jpg", "text": "Vaibhave....@lamevaibhav.When someone from Facebook joins Twitter and starts Liking all the Tweets.We don't do that here", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1062).jpg", "text": "YES I AM JUDGING YOU", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2546).jpg", "text": "AM NOT SPIDERMAN.AM SPODERMAN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1782).jpg", "text": "My cats when someone puts a box on the carpet", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2499).jpg", "text": "CRITICIZE ME WHEN YOU ARE AT MY LEVEL,UNTIL YOU MAY JUST ADMIRE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3869).jpg", "text": "She's the only one in the room who understands how dangerous this man actually is", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3866).jpg", "text": "When you type send nudes but it auto corrects to send nukes", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1949).jpg", "text": "YUCK! I just stepped in a big pile of Monday!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1834).jpg", "text": "KIM-JONG II MEMES ARE COMING", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3478).jpg", "text": "When you relax so hard you liquefy", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3989).jpg", "text": "SAYS WILL WENDELL.WON'T", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3466).jpg", "text": "WHEN YOU WAKE UP FROM A ONE NIGHT STAND AND SHE DID THE 10 YEAR CHALLENGE IN ONE NIGHT.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (216).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (3034).jpg", "text": "I GUESS YOU COULD SAY THAT I HAD LIVED MY LIFE.TO THE MACS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1645).jpg", "text": "Steve Harvey is the reason why....I have Trust issues..", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (3218).jpg", "text": "THE CATHEDRAL Of MISGYNY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2445).jpg", "text": "WHY DID THAT MONSTER.THAT GOT EATEN BY A MONSTER ATE KRABBY MOBILE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2846).jpg", "text": "Everyone deserves to be looked at the way leonardo dicaprio looks at his cookie.So so true Follow.@stuffthatlookslikestuff for.memes on memes.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3414).jpg", "text": "Liam Gallagher meets some young fans in Dublin and then finds out that they don't have tickets for his gig....@charlielightening", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2521).jpg", "text": "I HAVE THIS STRANGE FEELING.A BONER AND CHILLS AT HR SAME TIME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1879).jpg", "text": "HEY VICKY YOU NEED A NEW IPHONE!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (3898).jpg", "text": "EVERYTHING I FOUHGT FOR.HE WANTS TO DESTROY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1275).jpg", "text": "I LIKE BEER LIKE I LIKE MY MILK STRAIGHT FROM THE TAP", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (366).jpg", "text": "Me.My love for you.You.A nice little turtle meme for you", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1445).jpg", "text": "Knowing Have the  .Best Girlfriend Ever", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (594).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (3378).jpg", "text": "My face,when my parents ask,How wa your exam?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1556).jpg", "text": "I can't have children.Hold my beer", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3145).jpg", "text": "NEVER TELL ANYONE OUTSIDE THE FAMILY WHAT YOU ARE THINKING AGAIN.Don Corleone.THE GODFATHER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1841).jpg", "text": "KIM JONG-UN.KIM JONG-DEUX", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2708).jpg", "text": "SOME YEARS AFTER GLOBAL WARMING.ROSE?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1291).jpg", "text": "LEFT THE KITCHEN TOO MANY TIMES", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (128).jpg", "text": "Her parents sleeping soundly.Me", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2583).jpg", "text": "Can Steve Jobs.Reboot?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2558).jpg", "text": "BUT ITS SO HEAVY WITH ALL THAT AIR IN IT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3244).jpg", "text": "SONGS TROLL 2018.CLOSE ENOUGH", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (75).jpg", "text": "Teacher.Things she didn't explain during the lessons.Test", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1314).jpg", "text": "Hey Girl,.I might control the mounties.but I'll never control your uterus", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (200).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (2163).jpg", "text": "When nobody is making finding nemo memes.[Gerald Intensifies].*Sad retarded seal noise*", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1942).jpg", "text": "when olaf meet minion cuteness level infinity", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (5).jpg", "text": "Look,I'm hooman.Get off da counter don't eat mial fud.dur dur dur dur ", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1015).jpg", "text": "you are my best friend!.well actually benadet....besttiiieeeeee", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2561).jpg", "text": "MOM MADE PIZZA ROLLS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2825).jpg", "text": "Which team are you in?.Artificial Intelligence is a threat to humans in the longrun..Artificial Intelligence will boost the progress of humans in the longrun..", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (2174).jpg", "text": "I DON'T REMEMBER.REPUBLICANS TALKING ABOUT UNITY WHEN I GOT ELECTED", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1792).jpg", "text": "YOU SNOWFLAKES CAN'T KILL ME!.I HAVE THICKER SKIN THAN YOU!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2812).jpg", "text": "You can't block Mark Zuckerberg on Facebook..mark", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3012).jpg", "text": "I'VE SEEN SOME SHIT...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3087).jpg", "text": "HIJACKERS SQUAWK 7500.WHEN CHUCK NORRIS IS ON BOARD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2278).jpg", "text": "HATERS GONNA DIE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1143).jpg", "text": "CHUCK NORRIS CAN PICK ORANGES FROM AN APPLE TREE AND MAKE THE BEST LEMONADE YOU HAVE EVER TASTED.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2121).jpg", "text": "remember when the bad luck brian meme lasted us from 2012-2015?remember in 2016 when we had one viral meme a month?remember last week when we had a viral spongebob meme an hour.Meme half-lives are getting shorter", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1602).jpg", "text": "Today I learned....In the french translations of Harry Potter, Voldemort's middle name is Elvis..youjustlearned.com", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1354).jpg", "text": "WE'VE BEEN  .FRIENDS FOR SO LONG  .I CAN'T REMEMBER  .WHICH ONE OF US  .IS THE BAD INFLUENCE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1334).jpg", "text": "JOEY DOESNT  .SHARE FOOD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (504).jpg", "text": "LOYALTY", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3799).jpg", "text": "COME ON, BABY.BLOW ME UP", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (277).jpg", "text": "I'm just FEELing A Bit MeLonCHOLY", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (2671).jpg", "text": "THE SKEPTICAL THIRD WORLD KID MEMES.ARE JUST REPHRASED FIRST WORLD PROBLEMS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1701).jpg", "text": "WOMEN USE CHEMICALS TO REMOVE POLISH EVERYDAY AND NO ONE BATS AN EYES..I USE CHEMICALS TO REMOVE THE POLISH AND SUDDENLY I'M THE WORLD'S BIGGEST VILLAIN!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2545).jpg", "text": "when you're Spiderman and you get a job that requires you to get pictures of Spiderman.It's like printing my own money", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1507).jpg", "text": "WHEN YOU COME HOME AFTER TAKING THE EXAM AND YOU KNOW YOU FUCKED IT UP BADLY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3233).jpg", "text": "STOP PLAYING POKEMON GO.OR I WILL DEPORT YOU TO MARS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2495).jpg", "text": "HOW BADLY YOU WANT SOMETHING DICTATES .HOUW HARD YOU WILL WORK AT IT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (303).jpg", "text": "STORY TIME", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1031).jpg", "text": "I NEED YOU TO STAY LATE TONIGHT.WE REALLY HAVE TO CATCH THAT RED DOT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2019).jpg", "text": "IF WE'RE TRIDE OF THE IGNORANCE,THE MISOGYNY,THE RACISM,THE INSANE MARCISSISM,THE CRIMINALITY,THE ATTACKS ON THE PRESS,THE RULE OF LAW,ON DEMOCRACY ITSELF,IT'S CRITICAL THAT WE TAKE THE FIRST STEP BACK TO SANITY AND VOTE TO FLIP THE HOUSE..ROB REINER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (935).jpg", "text": "Introducing the U.S. Olympic Synchronized Napping Team", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (106).jpg", "text": "ME .MY METAL KNOWLEDGE .EVERYONE ELSE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2550).jpg", "text": "PICTURE GETS PUT UP AS EMPLOYEE OF THE MONTH.FOR A COMPANY THAT HE DOESN'T WORK FOR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2396).jpg", "text": "Rahul Gandhi these days-We don't need Rafael,we have Sania.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3143).jpg", "text": "THIS IS BARRY. BARRY WASN'T AFRAID TO GET A SLEEP STUDY.BECAUSE HE'S A REAL MAN..BE LIKE BARRY.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1151).jpg", "text": "HOW DO YOU ADDRESS.MENTAL HEALTH ISSUES..IN A COUNTRY WHERE IT'S NORMAL FOR A MAN TO BECOME A WOMAN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2290).jpg", "text": "Whose funeral is this?.Haven't Decided Yet", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3382).jpg", "text": "me as a girlfriend.YOU'RE BLOCKING MY VIEW.__ AM THE VIEW", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3445).jpg", "text": "Leonardo DiCaprio remembering the time he won Oscar for The Revenant:.Remember those DiCaprio-Oscar memes?.IG:Instagram.com/thebestmovielinesofficial", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (663).jpg", "text": "COFFEE IS MY FAVORITE CO-WORKER", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (3596).jpg", "text": "Fifty Shades of Sheldon", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (49).jpg", "text": "People who won't updata my King fu panda memes.Me.The 3 people .Today's 17+Most Hilarious Memes-Skadoosh-(Read it)Surf Funny", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (272).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (3532).jpg", "text": "COLONIZE A QUARTER OF THE WORLD COMPLAIN ABOUT IMMIGRANTS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2062).jpg", "text": "If traveling was free,you'd never see me again..True story!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (936).jpg", "text": "When a cat closes its eyes around you it means it trusts you.My Cat:", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (675).jpg", "text": "BATTERY LOW.NEED MORE TEA", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (274).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (1662).jpg", "text": "LOL YOU CAN'T SEE MY EMAILS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (419).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (2031).jpg", "text": "Pardon me,young lady..Did you just misgender me you misogynistic fuck", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1371).jpg", "text": "If you have  Crazy Friends  you have everything", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (146).jpg", "text": "Me talking about escape rooms.My friends", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1950).jpg", "text": "The only exercise some people get is running theuir mouth, jumping to conclusions & pushing their luck!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3410).jpg", "text": "knock Knock .Who's there .Mat .Mat who?.Martin luther black...Malcom x black...marcus Garvey,black", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1735).jpg", "text": "When you unlock a new skin for your favorite character", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (6).jpg", "text": "Chicken nuggs shaped like dinosaurs.23 year old me", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3875).jpg", "text": "THERE ARE LIMITS.self hating Joke here", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3760).jpg", "text": "RESPECT MY AUTHORITSN!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3444).jpg", "text": "2000-putin wins.2008 and 2012-putin wins.2018-putin wins again", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1205).jpg", "text": "Rose?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (197).jpg", "text": "LOVE IS AN OPEN DOOR.CLOSE IT", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (100).jpg", "text": "My knowledge in love vs. My knowledge in theories that Canada doesn't exist.Canada is just a hoax!", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1332).jpg", "text": "DON'T YOU DARE GIVE THAT.DOLLAR TO BERNIE, MADDI  .DON'T YOU DANK DOLLAR.DONATION DAY,MADDI", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1502).jpg", "text": "Never hate your enemies,it affects your judgement.The Godfather", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3648).jpg", "text": "Woman should also get equal responsibilities.Who the fuck said that", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1771).jpg", "text": "YOUR WISH WORKED..I CAN'T LIE .IF I KEEP MAKING THIS FACE WILL IT GET STUCK THAT WAY?. UH UH!.IN FACT SOME PEOPLE MAKE A GOOD LIVING THAT WAY.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (81).jpg", "text": "Argentina.The Falklands.Britain.Tom,Jerry and Spike meme", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (673).jpg", "text": "My nephews believe this is marshmallow farm....", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2970).jpg", "text": "IF YOU WANT TO EXPOSE FAKE FRIENDS AND HATERS.START EXPOSING YOUR BLESSINGS AND FAVOR AND SEE WHO CLASPS FOR YOU.ITZ ALL LOVE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2312).jpg", "text": "ONE DOES NOT SIMPLY .BAN GAY CLOWN PUTIN MEMES", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (899).jpg", "text": "Ladies and Gentlemen, it's time for Mr. Bean memes..The war has begun!Sound off the horns fellow memers!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3689).jpg", "text": "Remember this my nephew,people run in packs because they don't feel safe alone.I run alone because I don't feel safe in packs. .-The God father", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (343).jpg", "text": "KEEGAN IS A TOMATO.YOUR ARGUMENT IS INVALID", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (432).jpg", "text": "When someone calls you trash and you want to feel sad but deep down you know it's true", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (1213).jpg", "text": "so y'all was crying over Leonardo DiCaprios oscar but this man been in 200 movies over 50 years and y'all was silent.Yoooo Word! This Man is a legend", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1592).jpg", "text": "Using the format of a muggle singer.Using the format of the chosen one", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3018).jpg", "text": "This woman makes the voice of Howard's mother in the big bang theory.Now I Can Die in Peace.You may now die in peace...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (307).jpg", "text": "WHEN YOU THINK YOU BEEN WORKING FOR 4 HOURS.AND IT'S ONLY BEEN 17 MINUTES.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1900).jpg", "text": "QUICKIE.THERE'S NO TIME.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2206).jpg", "text": "AWKWARD PENGUIN.MEMES", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1131).jpg", "text": "HOW DO I KNOW GLOCKS SUCK CHUCK NORRIS CARRIES A 1911", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3085).jpg", "text": "RON WHAT ARE YOU DOING?.I'M JUST COPYING HERMIONE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2283).jpg", "text": "Don't fucking move", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1953).jpg", "text": "Do you think regular dogs see polices and think.... Oh shit its the cops!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2862).jpg", "text": "the benefits of flat Girlfriend", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3606).jpg", "text": "FOLLOW THAT MOUSE!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3496).jpg", "text": "THIS MEME IS SEXIST AND WRONG.STOP USING IT AND ONLY USE NON-SEXIST MEMES THAT MAKE FUN OF MEN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (405).jpg", "text": "Every Husband's condition.*ME*.*Wife* *Mom*", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1261).jpg", "text": "SLEEP LIKE A DRUNK BABY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3651).jpg", "text": "COLLECT YOU PURPLE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2133).jpg", "text": "The most amazing thing about Finding Dory is how they managed to put a receding hairline on a fish", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (119).jpg", "text": "MONEY", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2890).jpg", "text": "You went to the comic book store store by yourself?.it was fun.I walked in and two different guys got asthma attacks", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2582).jpg", "text": "so sad that Steve Jobs died of Ligma.who's steve jobs?.Ligma Balls", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (388).jpg", "text": "COCAINE..SO MUCH COCAINE.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3093).jpg", "text": "When you're drunk at party and your friends walk in:.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (48).jpg", "text": "Me,trying red panda memes.Low effort karma.Everything you can imagine is real.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (678).jpg", "text": "I KNOW EVERYTHING .I'M A PEARL.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (3860).jpg", "text": "MAKE IT SNOW.", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (584).jpg", "text": "Books are lighthouses erected in the great sea of time..James Russel Lowell.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (345).jpg", "text": "When you get a new pair of shoes and stand like this until people natice.WE LIT @funnyblack.s TAG 5 FRIENDS.@champagnnemojis(Credit)TURN ON POST NOTIFICATIONS", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (528).jpg", "text": "SOME PEOPLE IN THE MORNING.ME", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1238).jpg", "text": ".................RIGHT.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2736).jpg", "text": "WHEN YOUR SUGAR DADDY HAS THAT LOOK IN HIS EYE.BUT YOU'RE JUST GLAD YOU'RE GETTING PAID!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1895).jpg", "text": "liam: im incredibly hap-.harry: new single aril 7th .liam:.This is kinda mean but asf.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (965).jpg", "text": "This is Bill.Bill is Rich.Be like Bill", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (295).jpg", "text": "My mom waiting on the couch after getting a call from the school.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2503).jpg", "text": "Winners don't make excuses.-Harvey Specter", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (734).jpg", "text": "LOW BATTERY.CHARGE WITH A HUG", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (47).jpg", "text": "Me.My girlfriend at 2am.The boys saying one more game", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1663).jpg", "text": "WANTS TO BAN VIOLENT VIDEO GAMES.DOESN'T TRY TO BAN VIOLENT WARS IN MIDDLE EAST.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1933).jpg", "text": "BILBO BAGGINS.THE ONLY PERSON WHO HAS EVER READ THE TERMS AND CONDITIONS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 4}
+{"id": "data_image/image_ (1286).jpg", "text": "When you're a feminist so you try to open the pickle jar by yourself but you can't.I like men now.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1065).jpg", "text": "WHEN YOUR CAT WATCHES TOO MUCH FOOD NETWORK", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3899).jpg", "text": "WON'T SHAKE HANDS BECAUSE HIS HAND WOULD LOOK SO TINY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3889).jpg", "text": "What is Bill looking at?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (3337).jpg", "text": "LOOKING FOR A FUCK TO GIVE WHEN YOUR FRIEND SAYS SHE PAYS SOOO MUCH TAX", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (783).jpg", "text": "Healthy males between the ages of 18-55..The Royal Navy.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1909).jpg", "text": "During 3rd hour on Fast Sunday.I can't recall the taste of food,nor the sound of water", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (816).jpg", "text": "We are in the endgame now..AH! HE SAID IT! HE SAID THE NAME OF THE MOVIE!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1968).jpg", "text": "SOME PEOPLE CALL ME CRAZY....I PREEFER THE TERM CHILLD MOLESTER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1882).jpg", "text": "I MISS YOU PIG TIME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1703).jpg", "text": "WHO WOULD WIN?.The most powerful leader of Germany.one good boi", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3126).jpg", "text": "i dont even know who i am  anymore..P183804804", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2472).jpg", "text": "YOUR MOVE.ROBOTS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1126).jpg", "text": "CHUCK NORRIS DIED BUT HE'S ALRIGHT NOW", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (964).jpg", "text": "This is Bill..Bill has a girlfriend..Bill doesn't cheat on her, because he loves her..Bill is loyal..Be like Bill.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1260).jpg", "text": "give me the keys.I'm fine!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1290).jpg", "text": "LIST OF THINGS.FEMINISTS THINK ARE RIGHT", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (3375).jpg", "text": "ZUCKERBERG", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (270).jpg", "text": "2 servings of fruit....1serving of cute", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1209).jpg", "text": "i took  these with my iphone x. camera quality so surreal it's like Leonardo Dicaprio painted them", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1006).jpg", "text": "You know what they say.Revenge is a dish best served nude!__heldon Cooper.THE BIG BANG THEORY|Thursdays 8/7c CBS", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 0}
+{"id": "data_image/image_ (3403).jpg", "text": "I'm going camping.For the rest of my fucking life", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (2456).jpg", "text": "I SAW A HOMELESS MAN AND GAVE HIM $1.00.I SAW A HOMELESS MAN AND GAVE HER $0.77", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1905).jpg", "text": "DIDI YOUR BAND WIN A BRIT?.DIDN'T THINK SO.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (618).jpg", "text": "Help me Obi-wan Kenobi.You're my only hope.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (2796).jpg", "text": "get in loser we're deleting meme pages for hate speechbut leaving up kiddie porn and videos of people dying", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (616).jpg", "text": "H.O.P.E.Hold On, Plain Ends", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3946).jpg", "text": "HAPPY BIRTHDAY GURL!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3828).jpg", "text": "Finding EMO", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2613).jpg", "text": "WIFE GOT DENTAL SURGERY.CANT TALK FOR A WEEK.PLAYING PEEK-A -BOO WITH MOM.I CAN SEE HER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1842).jpg", "text": "I HAVE NO IDEA.WHAT I'M DOING!!!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2384).jpg", "text": "THE DALIS COW I MILKED TO WIN IN UTTAR PRADESH.WAS A BULL!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3292).jpg", "text": "The face you make when.You didm't pay the electric bill", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2650).jpg", "text": "MEMES....AS A SERVICE!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2328).jpg", "text": "Vladimir Putin absorbing the life force of an innocent child", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (859).jpg", "text": "*bad drawn table*.That Awkward Moment when you are the last single man in your group.I DON'T GET IT.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2469).jpg", "text": "Rose are red.this rhyme makes no fucking sense.Stawars is sexist-the dark sidesymnolizes women on our periods.If you say this doesnt rhyme you are Fake News", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2952).jpg", "text": "NUCLEAR WAR, RACE WAR, CIVIL WAR....ARE THERE ANY KINDS OF WAR PRICK ISN'T TRYING TO PROVOKE?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3782).jpg", "text": "You put in the TIME .PUT IN THE TIME.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1390).jpg", "text": "WE ALL HAVE THAT.GUY  FRIEND WHO LISTEN./LETDISSEMGOGUYS  .TO YOUR TALKS NO MATTER  .HOW LONG YOU SPEAK", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3197).jpg", "text": "MY PARENTS LEFT ME IN THE STREETS .BECAUSE THEY THOUGHT I WAS A WITCH?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2770).jpg", "text": "A PERSON APPEAL FROM X-MEN FOUNDER CHARLES XAVIER DOLPHINS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3922).jpg", "text": "WANTS TO WATCH TITANIC HAVE TO GET UP TO PUT IN 2ND TAPE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3983).jpg", "text": "Ability.When you can make three generations of people laugh their socks off, without uttering a single word.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2508).jpg", "text": "When you see an old format but it's in HD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (643).jpg", "text": "all my life problems.memes", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (848).jpg", "text": "I'LL MAKE YOU AN OFFER YOU CAN'T REFUSE.CLEAN YOUR ROOM AND SAVE YOUR FATHER FROM THE UNDERWORLD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3181).jpg", "text": "WHY DON'T YOU HAVE A SEAT.AND EXPLAIN TO ME WHY I FOUND THESE PICTURES OF MYSELF ON THE INTERNET", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1927).jpg", "text": "Person:The Lord of the Rings Extended Editions are over 12 hours longs.I can't watch all of them in one sitting..Me:There are few who can", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1741).jpg", "text": "WHATCHA THINKING ABOUT HITLER?.ON NAZING", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2027).jpg", "text": "HER ONLY CRIME.SHE'S A FEMALE RUNNING FOR PRESIDENT.They counted on misogyny.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (3971).jpg", "text": "BARRY, I'M AFRAID WE'RE GOING TO HAVE TO MAKE SOME SERIOUS CHANGES AROUND HERE..LET'S START WITH MY DIAPER.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (766).jpg", "text": "Me.My friend sending me dumbass stuff", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1201).jpg", "text": "EXAMS ARE JUST LIKE LEONARDO DICAPRIO THEY MAKE YOU GO CRAZY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1128).jpg", "text": "Chuck Norris Was Here...And He Chose Scissors", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2884).jpg", "text": "BUYS AN ISLAND FOR PRIVACY.WITH THE MONEY HE MADE SELLING YOUR PRIVACY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1921).jpg", "text": "HEAR COVER OF FAVORITE SONG.YOU RUINS IT!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2888).jpg", "text": "CHUCK NORRIS HAS A GRIZZLY BEAR CARPET IN HIS ROOM..IT'S NOT DEAD,IT'S JUST AFRAID TO MOVE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1724).jpg", "text": "THE AMOUNT OF HITLER MEMES IS TOO DAMN HIGH", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1228).jpg", "text": "D850.ME.D750", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1149).jpg", "text": "I DON'T NEED A PERFECT RELATIONSHIP.I JUST NEED SOMEONE TO ACT SILLY WITH,SOMEONE WHO TREATS ME WELL AND LOVES BEING WITH ME MORE THAN ANYTHING.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3748).jpg", "text": "WHOEVER CAME UP WITH THE PHRASE,THE FREAKS COME OUT AT NIGHT.HAS CLEARLY NEVER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (449).jpg", "text": "BRUH THIS DUDE IS TRASH", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (644).jpg", "text": "White Guilt.Queerness", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2292).jpg", "text": "PLEASE KILL ME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (65).jpg", "text": "Oh I'm a gummy bear.Yes I'm a gummy bear", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1064).jpg", "text": "it's cold out,wear a cat", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (398).jpg", "text": "COCAINE..SO MUCH COCAINE.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2153).jpg", "text": "Let's watch a movie.Take notes.Teachers students.How does one take notes on Finding Nemo", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (325).jpg", "text": "your affection .your love.me.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1386).jpg", "text": "YOU  CONSTANTLY.JUDGE OTHERS?.TELL ME JUST HOW  .PERFECT YOU ARE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2010).jpg", "text": "MISOGYNISTS.FEMININITY.IS THIS WOMANHOOD?", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3493).jpg", "text": "STOP THE RACISM....WE WERE ALL WHITE ONCE...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3787).jpg", "text": "I would simply.walk into Mordor for you", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2245).jpg", "text": "When the teacher has explained a question thirteen times to you and you still don't understand it..Please be patient I have autism.i need this hat pepe pepememe pepememes pepethefrog sadfrog feelsbadman feelsgoodman frog meme memes savepepe rippepe.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2915).jpg", "text": "WHY DRAKE ALWAYS LOOK.LIKE THE GIRLFRIEND?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2601).jpg", "text": "GOES TO SCHOOL WITH 15 POGS.COMES HOME WITH 100", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1001).jpg", "text": "AMY FARRAH FOWLER,WILL YOU SHARE THIS TOOTHBRUSH HOLDER WITH ME?I WOULD LOVE TO..DID WE REALLY NEED TO BE HERE FOR THIS?.CALL ME CRAZY,BUT I FOUND IT MOVING.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1426).jpg", "text": "TOOK GIRLFRIEND OUT FOR DRINKS LAST NIGHT FOR HER BIRTHDAY  .FORGOT TO WRITE HAPPY BIRTHDAY ON HER FACEBOOK", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2588).jpg", "text": "Clever marketing disguised as innovation.Child labour and factory suicides.Everyone.Steve Jobs", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2034).jpg", "text": "DISCRIMINATION AGAINST WOMEN?JUST PROVES HOW MISOGYNISTIC THE PATRIARCHY IS!.MENARE DISCRIMINATED AGAINST TOO?ALSO BLAME MISOGYNY.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2060).jpg", "text": "INDIANS WHO SCORED 300 AGAINST PAK", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3214).jpg", "text": "He never once visited a single concentration camp.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1788).jpg", "text": "WEDNESDAY.YOUR WEEK PRESENTED BY JIM CARREY.It's barely Wednesday! Who's looking forward to the weekend? @pmwhiphop @pmwhiphop @pmwhiphop", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2072).jpg", "text": "SONS AND DAUGHTERS WHO PUTS THEIR PARENTS IN OLD AGE HOME NOW PUTTING 2.5L IN THEIR ACCOUNTS TODAY,WONT'T I GET BLESSINGS OF THOSE PARENTS?.P.M. MODI TROLLED BLACK MONEY HOLDERS BADLTY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3234).jpg", "text": "Couldn't we just lose our virginities again?.Because I think, actually, mine's growing back", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2556).jpg", "text": "MISSING:.LAST SEEN: END OF 3RD QUARTER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2234).jpg", "text": "WHEN YOU LOOSE YOUR PHONE FOR A WEEK.AND YOU FIND IT.Memes", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2809).jpg", "text": "Extensive scientific research shows that this is the last image the human brain creates at the point of death. Could this be God himself?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1477).jpg", "text": "SO GLORGIO,WHAT DO YOU THINK HOW THE PYRAMIDS WERE BUILT?ALIENS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1692).jpg", "text": "THAT FACE YOU MAKE.WHEN SOMEONE SAYS THEY THINK HILLARY CLINTON WOULD BE A GOOD PRESIDENT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1670).jpg", "text": "I am not afraid of an army of lions led by a centipede; I am afraid of an army of centipedes led by a lion.-American Proverb", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (2191).jpg", "text": "WHEN YOUR CRUSH SAYS HE LIKES AMERICA", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1969).jpg", "text": "10+ Hilarious Memes Of The Day .A Person who always disturbs you.Is the person whi always loves you", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1648).jpg", "text": "Got busted rigging the primary..Told coal miners she was going to put coal companies out of business..Endangered national security and lied shamelessly about it..Called half the country deplorable..HOW'D SHE LOSE?!.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1886).jpg", "text": "HARRY + NIALL.VS.LIAM", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2732).jpg", "text": "I AM NOT SLEEPING..JUST RESTING MY EYES.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1086).jpg", "text": "To catch the fish...You must first...Become the fish", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2480).jpg", "text": "YOU PUT YOUR WHAT?.IN HER WHAT?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (338).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (642).jpg", "text": "all my life problems .the nbhd", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3535).jpg", "text": "Tom annd jerry had the realest beef of all time...never said a word..It was just on sight", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3512).jpg", "text": "BARNEY STIOSON'S DATING ADVICE.THERE ARE ONLY TWO REASONS TO DATE A GIRL YOU'VE ALREADY DATED.....", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (198).jpg", "text": "DUAL-WIELDING CLOUD ARMOURED SUN.YOUR ARGUMENT HAS NEVER BEEN SO INVALID", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 0}
+{"id": "data_image/image_ (46).jpg", "text": "Reddit.Duck memes.Me.Quack quack", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2563).jpg", "text": "15 FUNNIEST.SPORTS MEMES OF 2012", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1028).jpg", "text": "He ate the cat food again.....", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1460).jpg", "text": "i'm like dropping hints that I'm interested in marrying her.I'm interested in marrying you", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1990).jpg", "text": "DOES ANYONE ELSE CRY WHEN THEY GET F*CKING ANGRY???", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2789).jpg", "text": "WE'RE DEFENDING FREEDOM OF SPEECH.BY CENSORING ONLY.THOSE WHO DISAGREE WITH US", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3776).jpg", "text": "I prefer chicken.Cheep!.I SAID,REAL CHICKEN.PERFECTION", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (876).jpg", "text": "WHAAAAAAAAT.I WASN'T LISTENING", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (82).jpg", "text": "Society.Me.All my fetishes", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1069).jpg", "text": "DONT MIND ME I R A PRETTY CLOUD", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2693).jpg", "text": "GETS FIRST BOYFRIEND.LOSED HIM ON THE TITANIC", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3488).jpg", "text": "SHOOTS NEW X-MEN MOVIE IN YOUR TOWN.DONATES $10000 TO LOCAL CHILDREN'S HOSPITAL.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1967).jpg", "text": "I got expelled from school in pajama day.It's not my fault I sleep naked.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3362).jpg", "text": "me:*jokes about rape and suicide kids on the schook bus i drive:", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3098).jpg", "text": "DID YOU JUST FART?.BECAUSE YOU BLEW ME AWAY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (571).jpg", "text": "IT'S RAINING CATS AND DOGS", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2729).jpg", "text": "When u had an arguement with your emo roommate and he goes upstairs with some rope and five minutes later u hear a chair falling to the floor", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1732).jpg", "text": "Damnit, I Said Glass Of juice.Not Gas The Jews", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3282).jpg", "text": "Why ha you canceled.my x box live?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3111).jpg", "text": "2 year old vine comp on youtube.me at 3 in the morning", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (931).jpg", "text": "Perspective is everything..", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (3908).jpg", "text": "CHUCK NORRIS GOT A COMPUTER VIRUS AND I DIED", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (463).jpg", "text": "COCAINE.ONE HELL OF A DRUG", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (2653).jpg", "text": "When it was time to watch a movie in school", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1917).jpg", "text": "WHAT IF THEY ERE WRONG AND YOU CAN SIMPLY WALK INTO MORDOR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2023).jpg", "text": "LIGHTSKIN NIGGAS BE LIKE.CAUGHT ME OFF GUARD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3846).jpg", "text": "when you show your friend a talent you have been working for year and hits you with the o cool'", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3764).jpg", "text": "just talk to Kin Jong Un,we good now...#logang", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1148).jpg", "text": "Feeding your country.Sending a dog to space", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (43).jpg", "text": "Couldn't think of a cake day meme,so enjoy banana ducks.That's a cute duck!", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (208).jpg", "text": "my mom.me getting the McDonaids I begged for all day", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1220).jpg", "text": "It's Free Real Estate.This meme.Not dying", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2282).jpg", "text": "POST UNPATRIOTIC PUTIN MEMES ALL DAY AND NOBODY CARES.GET SCALPED ON THE MINIMUM WAGE AND EVERYONE LOSES THEIR MIND", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1162).jpg", "text": "FLORIDA-GEORGIA LINE.WOULDM'T KNOW COUNTRY MUSIC..wehatepopcountry.com.IF IT WALKED UP TO THEM AND SAUD,HELLO DARLIN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1398).jpg", "text": "WAIT,YOU'RE HOW OLD?.HAPPY BIREHDAY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (3021).jpg", "text": "I WILL FIND YOU AND I WILL FIX YOUR BROWS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1545).jpg", "text": "My friends: Do you regret letting Game of Thrones consume your life?.Me:.l've made many mistakes in my life,but that wasn'tone of them.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2893).jpg", "text": "YOU'RE NEVER TO OLD TO DO GOOFY STUFF.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3553).jpg", "text": "HOW TO TROLL FEMINISTS.i don't need feminism because my man told me i don't.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2198).jpg", "text": "THE BEST ECLIPSE EVER!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3886).jpg", "text": "I WILL DESTROP AMERICA!.I ALREADY DID!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1252).jpg", "text": "WHO WOULD WIN?.1 Trilson Spooks vs Dr. Evil", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (979).jpg", "text": "THIS IS BILL.BILL HAS OPINIONS ON JUST ABOUT EVERYTHING.RACHEL IS SICK TO DEATH OF BILL.DON'T BE LIKE BILL..HE'S A KNOW IT ALL TWAT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1623).jpg", "text": "WHAT IF I TOLD YOU.PEOPLE SHOULDN'T HAVE TO ASK YOUR HELP IF YOU ARE A CHURCH", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2264).jpg", "text": "THERE'S THE DOOR.Now get the fuck out", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3601).jpg", "text": "INVISIBLE BIKE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1544).jpg", "text": "THE REAL BEST MAN ALWAYS GOT YOUR BACK IF SOMEONE TRY TO OBJECT OR RUIN YOUR WEDDING", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1527).jpg", "text": "DU Students In April Just Before Exams.THIS IS FINE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2538).jpg", "text": "OH, I'M SORRY.WERE YOU LOOKING FOR DEADPOOL?.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2553).jpg", "text": "WHAT DOES A CHICAGO BEAR AND A CHICK-FIL-A WORKER HAVE IN COMMON?.NETHER HAD TO WORK THIS SUNDAY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2317).jpg", "text": "Putin has a slogan too....Make Russia Great Again!.TEANDERTHAL PARTY.Crooked Hillary,.Crooked Hillary,.Crooked Hillary,.Crooked Hillary!", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (182).jpg", "text": "I'M NO EXPERT ON COVID-19.BUT THIS IS THE CURE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2228).jpg", "text": "THIS STARTS WITH SOCIALLY AWESOME PENGUIN SHARING A POSITIVE SOCIAL INTERACTION.AND THEN ENDS WITH SOCIALLY AWKWARD PENGUIN AND A NEGATIVE SOCIAL INTERACTION(SIMILAR TO ABOVE)", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2360).jpg", "text": "how my future husband better react when he sees me coming down the aisle or eles im turning around and doing it again", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3577).jpg", "text": "Exam marks grades are all myths of the world.Alcohol and girls are not", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3659).jpg", "text": "FEMINISM BY DEFINITION IS THE BELIEF THAT MEN AND WOMEN SHOULD HAVE EQUAL RIGHTS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2419).jpg", "text": "IT'S BEDTIME .ARE YOU COMING OR NOT?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (264).jpg", "text": "I'm prepeared to die", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3718).jpg", "text": "So unlucky I wasn't here.I know exactly the countercurse that could have spared her..Bitch please.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1810).jpg", "text": "IT'S SIMPLE .WE LET CONFESSION BEAR KILL THE MALLARD INSANITY WOLF KILL CONFESSION BEAR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1253).jpg", "text": "Times are tough. Even Dr. Evil is taking public transit.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2541).jpg", "text": "you were suppose to pay the rent, not heep iti.from my point of view you need to fix this damn door", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1721).jpg", "text": "HITLER'S A JERK.HE BROKE OUR PINKY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2655).jpg", "text": "PLEASE.TELL ME HOW KNOWLEDGEABLE YOU ARE ABOUT ALL THE THINGS I SELL FOR A LIVING", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1235).jpg", "text": "NEW DISTRACTED BOYFRIEND MEME.OLD DISTRACTED BOYFRIEND MEME.MEME FANS", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3495).jpg", "text": "ALL OF THE OTHER REINDEER USED TO LAUCH AND CALL HIM NAMES....GOOD.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3948).jpg", "text": "LOYALTY IS A TWO-WAY STREET. IF I'M ASKING FOR IT FROM YOU, THEN YOU'RE GETTING IT FROM ME.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (3560).jpg", "text": "Chuck Horris doesn't need a hammer", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1476).jpg", "text": "GABRIEL BORIC.GIORGIO JACKSON.CIVIL WAR CAPTAIN AMERICA", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1794).jpg", "text": "PEE IN THE POOL AND NO ONE BATS AN EVE.PEE INTO THE POOL AND EVERYONE LOSES THEIR MINDS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3580).jpg", "text": "That moment when you realize that.Even Mr.Bean had a girlfriend but you're still single", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3583).jpg", "text": "*RECORD SCRATCH*.*FREEZE FRAME*.POPE:Yep that's me.You're probably wondering how I ended up in this situation..", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1656).jpg", "text": "TOM BARDY DESTROYS HIS PHONE AND HE'S GUILTY.HILLART DESTROYS A SERVER AND SHE'S INNOCENT?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1578).jpg", "text": "SEES BROTHER IN  MARAUDER MAP SLEEPING WITH MAN NAMED PETER EVERY NIGHT DOESN'T BRING IT UP OR JUDGE HIM", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2362).jpg", "text": "Who would have guessed that this:.Would grow up to be this?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3511).jpg", "text": "OF COURSE IT'S OKAY TO SAY HELLO TO A WOMAN.BUT MAYBE,IF YOU SAY HEY BABY,GIVE ME A SMILE TO A COMPLETE STRANGER,YOU'RE KIND OF A DOUCHE BAG.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3427).jpg", "text": "MOM UNDERSTANDING TECHNOLOGY?.WHAT YEAR IS IT??", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (454).jpg", "text": "COCAINE IS A HELL OF A DRUG", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (3408).jpg", "text": "WAS DUMB BEFORE IT COOL", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2718).jpg", "text": "These kids today are always on their phones.I now present to you this picture of a stereotypical teenage girl from 1956", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1207).jpg", "text": "New drinking game: take a shot everytime you see a Leo meme", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3815).jpg", "text": "WHAT IF I TOLD YOU.PARAMOUNT PURPOSELY MADE SONIG UGLY TO GAIN ATTENTION, AND HAS THE REDESIGH READY TO GO", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (664).jpg", "text": "My body is just a filter.COFFEE GOES IN .SARCASM COMES OUT", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (3168).jpg", "text": "January 17,1964-Michelle Obama was born. She turns 54 years old.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3903).jpg", "text": "YOU DIDN'T WATCH THE VIDEO?.I CAN'T WAIT TO HEAR YOUR EXCUSE.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2692).jpg", "text": "Am I the only one that thinks.this iceberg is sexy?.I'd hit it...", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3373).jpg", "text": "RAHUL GANHI IN QUEUE OUTSIUDE SBI TO EXCHANGE RS 4,000.MODIFYING INDIA!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (257).jpg", "text": "I AM ONE WITH THE FISH", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1901).jpg", "text": "Share a Coke with Liam", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1325).jpg", "text": "WHEN THE SELF HELP BOOK SAYS YOU JUST NEED TO LEAN IN A LITTLE MORE TO GET TO THE TOP OF THE WHITE SUPREMACIST + THAT DOING SO IS THE HEIGHT OF FEMINISM", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3232).jpg", "text": "I'M NOT SEXIST. SEXISM IS WRONG.AND BEING WRONG IS FOR WOMEN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1048).jpg", "text": "CHILL DUDE I ONLY TOOK ONE COOKIE.OKK?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3727).jpg", "text": "And,lo,Jesus fed the needy only after receiving a massive public shaming on Twitter.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1225).jpg", "text": "The other format.Me .This meme format", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1133).jpg", "text": "When Chuck Norris does a push up,he isn't lifting himself up,he's pushing the Earth down.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3481).jpg", "text": "I'LL BUILD A WALL.WITH FRICKIN' LASER BEAMS.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2484).jpg", "text": "SOMETIMES YOU SAY THINGS AND I JUST....", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (421).jpg", "text": "2010.THE CAKE.IS A  LIE", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (2304).jpg", "text": "I DID NOT HAVE A SEXTUAL RELATIONSHIP WITH DONALD TRUMP.The left still can't meme. Putin didn't have sexual raltions with Trump.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1368).jpg", "text": "WHEN SOMEONE CALLS  MY BEST FRIEND THEIR  BEST  .HOLD DA F  K UP", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2224).jpg", "text": "DON'T HAVE ANY IDEA.ABOUT YOUR BIRTHDAY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1311).jpg", "text": "guy:girls who curse are unattractive.me:.oh,fuck,wank,bugger,shitting,arse,head,and hole.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2991).jpg", "text": "WHAT HITLER LOOKED LIKE. WHEN THEY LOST THE WAR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3417).jpg", "text": "THEY SAID I COULD BE ANYTHING.SO I BECAME... SEXY.Minion memes are onthe rise.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (942).jpg", "text": "#1 ON TRENDING.REUPLOAD Logan Paul Vlogs We found a dead body in the Japanese Suicide...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3372).jpg", "text": "TELL ME SOMETHING INTERESTING ABOUT YOURSELD.TO WIN A CARD READING", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (567).jpg", "text": "WHITE ELEPHANT PARTY!", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (2867).jpg", "text": "When the past haunts you, remember:you can only turn your life around in the present.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2947).jpg", "text": "When you're almost done picking teams in gym class", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (713).jpg", "text": "Hell-On-Earth.Marriage", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (919).jpg", "text": "Every school has a kid like this", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2824).jpg", "text": "Mark Zuckerberg, get on this..(Andrew Gifford)", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3451).jpg", "text": "THE ONLY THING TRUMP HAS REPEALED AND REPLACED SO FAR IS HIS OWN STAFF..BUT THAT'S NONE OF MY BUSINESS.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3719).jpg", "text": "10 FAMILY FUND US ANSWERS.That Left STEVE HARVEY SPEECHLESS!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (487).jpg", "text": ".......CHOCOLATE OR SEX.....CHOCOLATE IS SEX...HMMMMM", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (676).jpg", "text": "Me .Life.Things that I want", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1011).jpg", "text": "Blueberry in my nose!.Blueberry in my nose!-Sheldon Cooper.THE BIG BANG THEORY|Thursdays 8/7c CBS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3133).jpg", "text": "HAPPY BIRTHDAY.LIAM", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3713).jpg", "text": "Cedric Diggory's death was a tragic accident!.Sounds like your birth!", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (2501).jpg", "text": "HARVEY SPECTER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3765).jpg", "text": "TREMENDOUS AMOUNT OF POWER.LEGALIZES PIZZA", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2632).jpg", "text": "I DIDN'T CHOOSE THE HIT LIFE.THE HIT LIFE CHOSE ME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (846).jpg", "text": "Drink water you may not", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1644).jpg", "text": "YOU ELTHER DIE A HERO.OR YOU LIVE LONG ENOUGH TO SEE YOURSELD BECOME THE VILLAIN.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3109).jpg", "text": "THE FACE YOU MAKE AFTER READING INTERNET FANFICTION", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2143).jpg", "text": "i will call him Squishy.&he shall be mine&he shall be my squishy", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (520).jpg", "text": "SEE, THERE REALLY IS TREASURE AT THE END OF A RAINBOW", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (1246).jpg", "text": "ADMIT IT .you like mini-me inside you", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2001).jpg", "text": "The police pulled me over and asked me 'you know how fast you were going?' I said obviously not fastenough because you caught me.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2872).jpg", "text": "CHUCK NORRIS WAS A BADASSS FOR SO LONG A TIME.ONLY BECAUSE LYANNA WAS BUSY HAVING TEA PARTIES WITH BEARS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2945).jpg", "text": "i can't be ugly if beauty is a construct made by the capitalist system to make us see flaws that don't exist to sell us things we dont need", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (3747).jpg", "text": "WHO WOULD WIN?.Reincarnation of Hitler The entire internet", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (702).jpg", "text": "me: im sad .me after one french fry: life ain't too heck.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3798).jpg", "text": "I have lost my mind and i am making no effort to look for it.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2202).jpg", "text": "Obama: Did you replace all the toiletries with travel size bottles?.Biden: He's got tiny hands Barack, I want him to feel welcome here", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2571).jpg", "text": "Your brain .Your brain on drugs.Don't Do Drugs", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (752).jpg", "text": "Me Unsee Juice.(((Big sip)))", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2607).jpg", "text": "HAD STUPID OPINIONS AS A TEENAGER.FACEBOOK AND TWITTER DIDN'T EXIST SO THE WORLD NEVER FOUND OUT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1482).jpg", "text": "THE FIRST OF US TO GO TO HEAVEN WILL HELP THE OTHER CLIMB UP.BLESSED PIER GIORGIO FRASSATI", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3895).jpg", "text": "FOREIGH POLICY?.MESS WITH THE UNITED STATES & THERE WILL BE HELL TOUPEE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3758).jpg", "text": "Alert:Kin Jong-un has slathered his nukes in BBQ sauce and is now threatening to send the world to Flavortown", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (399).jpg", "text": "COCAINE..IS A HELL OF A DRUG", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (2859).jpg", "text": "WHAT'S LANTERN UP TO THESE DAYS?.HE'S PRETENDING TO BE DEADPOOL.IT'S SAD WHEN A MOVIE ABOUT THIS PRICK.DOES BETTER THAN A MOVIE FEATURING SUPERMAN,BATMAN,WONDER WOMAN.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (20).jpg", "text": "THEY SAID I COULD BE ANYTHING .SO I BECAME A PANDA", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3276).jpg", "text": "I hate it when people are at your house and ask__o you have a bathroom?'.No ,we pee in the yard.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1251).jpg", "text": "PEOPLE KEPT CALLING ME AVERY BULLOCK FROM AMERICAN DAD NOOOO I TAKE MY JOB SERIOUSLY AND COULD KILL HIM IF I WANTED TO", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2003).jpg", "text": "Your father and I are getting a divorce..Can e all just agree even ironic minion memes are dead?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (445).jpg", "text": "if 2020 was a ice cream flavor...", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1078).jpg", "text": "My friend's cat had surgery and now he has no pants", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2274).jpg", "text": "TRUMP AND PUTIN LIKE ASHFORD AND SIMPSON", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (2609).jpg", "text": "GETTING MARRIED BEFORE HAVING A BABY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (831).jpg", "text": "The Lord of the G-Strings:The Femaleship of the String.I don't think Gandalf meant for us to come to come this way", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2156).jpg", "text": "RARE VIEW OF CRUSH.DABBING ON EM", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2331).jpg", "text": "the miracles of modern science.Two Years Ago, This Man Was 500 Pounds. Now He Is Two Men Who Weigh 250 Pounds.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1940).jpg", "text": "SUMMER:Hair gets lighter.Skin gets darker.Water gets warmer.Drinks gets colder.Music gets louder.Night gets longer.Life gets better.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3676).jpg", "text": "WHEN SOMEONE ASKS WHY I'M STILL SINGLE.I DON'T KNOW!I THOUGHT I WAS PRETTY AWESOME.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3187).jpg", "text": "You ugly..We're twins.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (720).jpg", "text": "When you can't fall asleep and you start hearing birds", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1849).jpg", "text": "Just a reminder that if you squash a marshmallow rabbit then the end result is Kim Jong-un.How can I explain that what I do to 'escape my everyday life' is to run a meme account on instagram?", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (1931).jpg", "text": "My Friend when I try and send him LotR memes but he hasn't seen the movies.YOU HAVE NO POWER HERE.Just watch the damn movie", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (2276).jpg", "text": "THAT MOMENT YOU THINK ABOUT UPGRADING TO A RICHER OLD WHITE GUY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3693).jpg", "text": "When you overhear rumors that the 8th season of got may be delayed yntil 2019.Give something for the pain,and let me die", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2787).jpg", "text": "X-MEN VS AVENGERS MOVIE?....TAKE MY MONEY!.~Deadpool", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (681).jpg", "text": "how's your life going?.This is a river of my tears", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3804).jpg", "text": "LORD OF THE RINGS?.TOTAL HARRY POTTER RIPOFF", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (514).jpg", "text": "When there is cake, there is hope. And there is always cake..-Dean Koontz", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (507).jpg", "text": "The look I give my friends when they say they don't want to get dessert", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1510).jpg", "text": "YOU SEE I'M NOTLIKE A BOSSI AM THE BOSS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3732).jpg", "text": "MEXICAN WORD OF THE DAY:NACHO.HILLARY CLINTON IS NACHO PRESIDENT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1193).jpg", "text": "1st time 2nd time.3rd time 4th time.When the teacher sends you out of the class.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1743).jpg", "text": "RAINDROP, DROP TOP.HITLER NEVER USED GAS, HE DID NOT NOT .C-SPAN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (699).jpg", "text": "FAME IS A BEAST.The American Meme.a film by.BERT MARCUS.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (3987).jpg", "text": "Mr. Bean Face Me", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 0}
+{"id": "data_image/image_ (741).jpg", "text": "When you drink water after eating a mint", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1088).jpg", "text": "I think I should give one of these beaytiful flowers to my human mama...to show her how much I love her!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (807).jpg", "text": "State Dining Room in the White House:.2009 vs. 2019", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3788).jpg", "text": "Anti-vaxx kid getting nervous on his third birthday like:", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (3578).jpg", "text": "I was looking for a Mr.Bean avatar for forum use.Did not expect this.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1523).jpg", "text": "WHAT I ORDERED IN ONLINE.BE LIKE BIJILI.BUT WHAT I GOT!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1071).jpg", "text": "When your mon told you it's just baby fat,and you'll grow out of it......but you're 35 years old now.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3461).jpg", "text": "WHY THE HELL IS A COVERNMENT THAT SPIES ON ITS OWN CITIZENS.LECTURING MARK ZUCKERBERG ABOUT PRIVACY?!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1224).jpg", "text": "The red flags just piled up and piled up didn't they", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3474).jpg", "text": "normal people.me and my shitty self-harm jokes", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1406).jpg", "text": "Joe pays homage to Gene Wilder in the best way.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3563).jpg", "text": "When you hurriedly participated in the #10YearsChallenge without checking your photo,now your sub don expire...which kind wahala be dis?who send me?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2924).jpg", "text": "Narendra Modi is awarede with highest Civilian Award in Russia.For exceptional services in promoting bilateral special and privileged strategic partnership between the two countries", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (648).jpg", "text": "KIDNEY.IPHONE X", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (612).jpg", "text": "Miss u", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 0}
+{"id": "data_image/image_ (2262).jpg", "text": "CAPTAIN PICARD GETS OUT OF HIS ROBE TO SEE DAPHNE AND THE MYSTERY AND DAMIEN BOGGS.YOU SHOULD TOO.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (817).jpg", "text": "Who you thought was gonna save the universe.Who is really going to do it", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2335).jpg", "text": "ABRAHAM LINCOLN ONCE SAID.IF YOU'RE A RACIST I WILL ATTACK YOU WITH THE NORTH.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2642).jpg", "text": "Offline is the new luxury. It should remain a basic human right to disconnect", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (3204).jpg", "text": "OBAMA MEETING WITH PUTIN SUSAN RICE AND A RUSSIAN ATTORNEY AT G2O.MIKE RILLING.WHERE WAS THE MEDIA OUTRAGE THEN?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1159).jpg", "text": "GIRL,YOU LIVE.IN A CORN FIELD?..CAUSE IVE BEEN.STALKING YOU", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (722).jpg", "text": "FAILURE IS MOTHER OF SUCCESS", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (631).jpg", "text": "The doctor said I need to eat more fish...", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (3498).jpg", "text": "LUCIFER FOR PRESIDENT .THIS COUNTRY IS GOING TO HELL ANY WAYS,WHY NOT ELECT SOMEONE WHO KNOWS THE PLACE?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1919).jpg", "text": "Find Potter and bring him to Narnia.The Deathstar is ready for our war against the Time Lords..I am Groot..HILARIOUS Lord of the Rings meme from facebook xD Does anyone get these.REFERENCES?? L.O.L", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2721).jpg", "text": "YOU BROKE MY LEG!.DAMN RIGHT I DID!.I LIKE YOU.I DON'T", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2528).jpg", "text": "When you share a Netflix account with your family.No matter what I do no matter how hard I try the ones I love will always be the ones who pay", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (374).jpg", "text": "LOT F BE LIKE .I'M A FREIGHT TRAIN!.Lot F be like i'm a freight train!-slow turtle |Meme Generator", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1307).jpg", "text": "Random dude:smile!.Me:", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2551).jpg", "text": "SMILES.NOW WORTH 100 FANTASY POINTS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1296).jpg", "text": "CHIVALRY WHEN SHE LIKES IT.SEXIST WHEN SHE DOESN'T", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2108).jpg", "text": "CAN SOMEONE TAG BRAIN.I HEARD HE WANTS TO RIDE A PONY", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (346).jpg", "text": "Girls without make up", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (3163).jpg", "text": "THREATENS THE WORLD WITH POWERFUL NUKES.THEY CAN BARELY COOK A TV DINNER.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (469).jpg", "text": "PATIENCE .THE KEY TO SUCCESS", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (92).jpg", "text": "knowledge", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2275).jpg", "text": "ROSES ARE RED, VIOLETS ARE BLUE.UKRAINE IS MINE, AND SO ARE YOU!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (870).jpg", "text": "Swarkles.barney_stinson_offical.Like and comment if you love..And even more if you don't.like_a_suit", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (580).jpg", "text": "I CALL YOU SUN, .BECAUSE YOU SHINE BRIGHT LIKE ONE", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (912).jpg", "text": "Two legends, made us laugh without speaking a single word.Mr. Bean Charlie Chaplin", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (613).jpg", "text": "FOR YOU", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 0}
+{"id": "data_image/image_ (2913).jpg", "text": "Texan man searching for supplies and dry land in the floodwaters of hurricane Harvey.Circa 2017", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (916).jpg", "text": "WHO... ARE YOU?.I AM YOU, BUT STRONGER...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2131).jpg", "text": "BITCH HIGH AS FUCK.ABOUT TO GET LOST AND SHIT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (770).jpg", "text": "Union is Strength", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1763).jpg", "text": "2019 Jim Carrey looks that cool aunt you can say anything to.That cool lesbian aunt", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3784).jpg", "text": "BEST FRIEND DOESN'T LIKE LORD OF THE RINGS?.LORD OF THE RINGS MARATHON", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1920).jpg", "text": "COME AT ME,BRO!.I AM NO BRO!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3647).jpg", "text": "i'm gonna build a wall and put freakin'laser beams on it.This is too on point try and comment Dr Evil letter by letter uninterrupted...it's impossible.First one to do it gets tagged in this meme", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (732).jpg", "text": "If life's a beach....You better make some waves!", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 1}
+{"id": "data_image/image_ (1417).jpg", "text": "YOU TRAINED YOUR LIITLE DOG TO FETCH STICKS?THAT'S CUTE  .I TRAINED MY ROTTWEILER TO FETCH  BOYFRIENDS. WHEN THEY TRY TO RUN AWAY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (532).jpg", "text": "Me after reading a mean reddit comment", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3148).jpg", "text": "Russo Brothers say the Avengers 4 Title was said in a previous Marvel Movie.That up there, that's the endgame. How were you guys planning on beating that?.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2258).jpg", "text": "PICARD MEMES.FINALLY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1116).jpg", "text": "Chandler.Trolling on someone elss's account BEFORE IT WAS COOL.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1202).jpg", "text": "Leonardo DiCaprio taking a selfie and being impressed with it just improved my life span by 50 years.Don't have the same reaction when I take a selfie", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (820).jpg", "text": "I did not invade Asgard, it's not true..It's bullshit. I did not invade it..I did Naaaaawt..Oh hi Thor.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (85).jpg", "text": "i hope this one isn't toxic.cute boy", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2941).jpg", "text": "Has a Masters Degree in Electrical Engineering.Becomes a comedian.Happy birthday Mr.Bean:)", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (318).jpg", "text": "WHEN YOU'RE HOME ALONE IN THE SHOWER.AND YOU HEAR A NOISE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (309).jpg", "text": "When a parent tells me that their kid is an angel", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3489).jpg", "text": "MAKES TIMELINE MANDATORY.ONLY WAY TO ADVOID IT IS USE INTERNET EXPLORER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2383).jpg", "text": "YOUR PARTY DID 2 BIGGSET SCAMS OF INDIA.2G AND COALGATE.facebook/Troll Politics India;-).I USE 3G&PEPSTODENGT ", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2695).jpg", "text": "EVERYTHING'S FINE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2187).jpg", "text": "THE WORLD IS GONA MISS THIS GUY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1793).jpg", "text": "12 YEAR OLD ME:.HOW BAD COULD BRACES HURT?.13 YEAR OLD ME:.WANNA KNOW HOW I GOT THESE SCARS?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1973).jpg", "text": "Facebook:*minion meme* 40 year old moms:", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (118).jpg", "text": "TIME IS MONEY,MONEY IS POWER.POWER CORRUPTS . EVENTUALLY..", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (2259).jpg", "text": "My Android phone..Comes with a Data Plan.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1620).jpg", "text": "I DONT ALWAYS MAKE MISTAKES.BUT WHEN I DO ITS UNIVERSAL", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (830).jpg", "text": "every female avenger.But if anything happened to him, I would kill everyone in this room and then myself.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (836).jpg", "text": "CAPTAIN AMERICA'S SHIELD.HAWKEYE'S SHILED", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (3413).jpg", "text": "Every time I see a security camera", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1913).jpg", "text": "Bilbo Tells Gollum....There is No Santa Claus.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3041).jpg", "text": "SO YOU'RE TRYING TO TELL ME....THE GIRL YOU WAS GRINDING WITH LAST NIGHT IS YOUR SISTER FROM ANOTHER MOTHER?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2988).jpg", "text": "final solution.a new cologne by Adolf Hitler", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (610).jpg", "text": "The eyes are the windows of the soul", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (650).jpg", "text": "When the connection to God is so bad that the Pope has to put on his Antenna", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 3}
+{"id": "data_image/image_ (3574).jpg", "text": "THE FACE YOU MAKE.WHEN YOUR MOUTH WAS OPEN AND SOMEBODY SNEEZED", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2028).jpg", "text": "When women need more rights but gender doesn't exist", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2760).jpg", "text": "WORST PRESIDENT EVER.HOLD MY BEER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3307).jpg", "text": "My jewish friend:Club Penguin memes will never work in minecraft.Me:Nice!.My JEW is almost done", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1796).jpg", "text": "When you find all the special weapons in a RPG", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2310).jpg", "text": "PUTIN IS THE HERO WE NEED.NOT THE ONE WE DESERVE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1874).jpg", "text": "WHEN ELENA KISSED LIAM.Delena&Stelena Fans", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2931).jpg", "text": "OH MY GOD RONALDO.WHERE DID YOU GET THAT HANDBAG!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (199).jpg", "text": "me.my kid.their poop", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (1855).jpg", "text": "240,000 LBS OF FOOD?.I'LL BE FINE WITHOUT ", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1099).jpg", "text": "I just told him we're getting a puppy", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2135).jpg", "text": "WHY IS FINDING NIMO CLOSED?.WE DONE FINDED HIM.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2883).jpg", "text": "WE HAVE A FALSE TRANSITIVE PROPERTY FOUL.BEATING SOMEONE THAT BEAT MY TEAM DOESN'T MEAN YOU BEAT MY TEAM", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2150).jpg", "text": "FOUND NEMO.DELICIOUS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (344).jpg", "text": "BURN LEVEL:TOMATO", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (904).jpg", "text": "Mr. Bean Laden", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3475).jpg", "text": "HURRY UP I REALLY HAVE TO GO", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1860).jpg", "text": "US PEACE OFFERING IS TEMPTING", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (3708).jpg", "text": "dracosredemption:.The girl next to Crabbe looks like Crabbe with a wig on.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1536).jpg", "text": "BEN.DANY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (185).jpg", "text": "I'm a Lion.Yes,yes", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2679).jpg", "text": "BELIEFS GETTING DOWNVOTED.REFUSE TO DELETE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1766).jpg", "text": "ARROW TO THE KNEE?.PLEASE!.Funny Jim Carrey Meme Arrow To The Knee Please Image", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3994).jpg", "text": "I STILL KNOW NOTHING ! 2017", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1298).jpg", "text": "THE STATE: DOMESTIC ABUSE IS DECRIMINALIZED IN RUSSIA BUT FEMINIST MEMES CAN LAND YOU JAIL TIME..ME:", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2277).jpg", "text": "THE BIG DAY IS HERE! CONGRATS TO THE HAPPY COUPLE!", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (963).jpg", "text": "This is Bill.Bill is a developer in mind while designing.Bill doesn't name his files as untitled(1).psd.Bill doesn't stay back in office just to claim overtime meals.Bill is smart.Be likeBill.Ps", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 0}
+{"id": "data_image/image_ (1431).jpg", "text": "My boyfriend isn't allowed to  have candles on his  birthday cake. .INSTAGRAMCOLVIABOSSCHICK  .Wtf are you wishing for? All  your dreams came true  .when you met me.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3000).jpg", "text": "Tinder date: so your bio says you like going adventures.Me:.Mental illness is an adventure", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 3}
+{"id": "data_image/image_ (1957).jpg", "text": "If i manage to Survive the rest of the week, I would like my straight jacket in hot pink & my helmet to sparkle.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2425).jpg", "text": "When somebody says u look like u lost weight but u know damn well u ate a box of cookies in ur sleep last night", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2564).jpg", "text": "I'M THE REAL MVP", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3152).jpg", "text": "Music while doing homework.. Music while cleaning my room. Music while working out..I get more things done with music...", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3859).jpg", "text": "Bravo Captain Picard!.What Tea line would be complete without Picard's famous Earl Grey? It has a touch of sweet citrus fruit with a creamy vanilla taste and a tiny drop of honey. Perfect for sitting in your quarters and thinking pensively.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (52).jpg", "text": "Tiny spider in the bathroom.Dad", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (2380).jpg", "text": "CRYPTOCURRENCY.CREATED IN BLOUSE OF VEG SELLER-RAHUL GANDHI", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3191).jpg", "text": "AND THAT'S HOW MAFIA WORKS.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (196).jpg", "text": "Apple juice.Android juice", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (3884).jpg", "text": "RAHUL GANDHI RESETTING HIS TWITTER PASSWORD TO SAVE IT FROM HACKING AGAIN..Pappu Is Super Busy..:P", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2165).jpg", "text": "WHERE THE FUCK IS MY SON", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2270).jpg", "text": "HOLD ON.ARE THOSE NACHOS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3397).jpg", "text": "Yo Chuck,Ima gonana finish,but....you know what,you go right ahead and finish.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (907).jpg", "text": "When Mr. Bean gives you this look you know you've fucked up out of proportions.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1315).jpg", "text": "NEVERTHELESS,.SHE PERSISTED", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 4}
+{"id": "data_image/image_ (3955).jpg", "text": "YOU'RE NOT MY REAL DAD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1196).jpg", "text": "Did you know?.Leonardo DiCaprio created the original Mona Lisa on MS Paint before transferring to canvas", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3916).jpg", "text": "OKAY, BUT JUST ONE MORE BEER I HAVE TO BE UP AT 3 A.M. TOMORROW TO WAKE MY PARENTS UP", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3726).jpg", "text": "I'm Steve Harvey and you're watching Cartoon Network!.Lmao..incorrect! Clearly that's Nickelodeon", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2493).jpg", "text": "THE ONLY TIME SUCCESS COMES BEFORE WORK IS IN THE DICTIPNARY", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3497).jpg", "text": "AND THE WINNER IS...HILLARY CLINTON!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (863).jpg", "text": "IT'S YOUR BIRTHDAY....OR ANNUAL DECLARATION OF BEING AWESOME!.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2821).jpg", "text": "WHAT IF FOR EVERY LIKE ON FB POSTS MARK ZUCKERBERG GETS MONEY.AND THE ANNOYING PEOPLE ON FB ACTUALLY WORK FOR HIM?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2820).jpg", "text": "STANDING ROCK INSPIRED ME TO MAKE CHANGE.I'M TRYING TO KICK INDIGENOUS HAWAILANS OFF THEIR LAND", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (228).jpg", "text": "I'M GUESSING THIS FLOWER IS A MALE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (3797).jpg", "text": "I swear my last words are going to be,I got this.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3892).jpg", "text": "2016 ELECTION TRUMP VS HILLARY STILL A BETTER LOVE STORY THAN TWILIGHT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2617).jpg", "text": "MOM WALKS IN WITHOUT KNOCKING WHILE WATCHING INTERNET PORN.ALREADY HAD FACEBOOK TAB OPEN AND CHROME DIDN'T FREEZE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3237).jpg", "text": "WTF is happening to the spider.2004.2014.2017", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2822).jpg", "text": "Wow Assange was arrested for sharing private information..Mark Zuckerberg.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (3856).jpg", "text": "The only good thing about going to the recent page, is seing the few good memes before everyone else does..Not really sure if it's that much win..", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3558).jpg", "text": "REALLY BITCH", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (976).jpg", "text": "I Worte All Plays On My Wristband .IT DIDN'T HELP", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1485).jpg", "text": "PILLS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2069).jpg", "text": "THAT'S NOT.HOW SCIENCE WORKS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (430).jpg", "text": "whenever its my turn to speak", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2622).jpg", "text": "WHO WOULD WIN?.the earth.one man and his shorts.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (2966).jpg", "text": "IF HARRY POTTER MOVIES WERE ....CAST WITH HOLLYWOOD STARS...REMUS LUPIN WOULD BE PLAYED BY: GREG KINNEAR", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1948).jpg", "text": "STAY WEIRD.IT'S LEDAL AND FUN", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3377).jpg", "text": "I'm not saying you should vote for Bernie Sanders.But you should vote for Bernie Sanders", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (1167).jpg", "text": "IF SOMEONE PLAYS..COUNTRY MUSIC", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3566).jpg", "text": "Oh my god,I love your cape.Where did you get it?.It was Odin's on Asgard..Vintage.So adorable..That is the ugliest effing cape I've ever seen.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (151).jpg", "text": "THEY TOLD ME I COULD BE ANYTHING.SO I BECAME A SHEEP", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (474).jpg", "text": "PATIENCE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (245).jpg", "text": "", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (2801).jpg", "text": "THINK YOU MAKE.AN ORIGINAL MEME.PULL A MARK.ZUCKERBERG INSTEAD", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1528).jpg", "text": "THAT MOMENT WHEN YOU FIND THE PERFECT AVOCADO AT THE SUPERMARKET", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (545).jpg", "text": "HAP BEE.MOTHER'S DAY!", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2).jpg", "text": "THEY SUSPECT NOTHING", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3385).jpg", "text": "When you laugh at a minion meme.Why", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (761).jpg", "text": "EDUCATION.THE KEY TO SUCCESS", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (840).jpg", "text": "SON OF A BITCH TOLD ME IT'S NAP TIME?", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 3}
+{"id": "data_image/image_ (333).jpg", "text": "OCEAN FULL OF PLASTIC.More plastic.Environmental memes for anxious teens", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (225).jpg", "text": "You can't see me, l am a flower....", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (3522).jpg", "text": "WHEN YOU SEE RANDOM FLOATING TEXT ABOVE YOU.AND REALIZE YOU'RE TRAPPED IN A MEME", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1135).jpg", "text": "MAKE ONE MORE SCUMBAG CHUCK NORRIS MEME I DARE YOU,I DOUBLE DARE YOU MOTHERFUCKER!", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (763).jpg", "text": "CONFIDENCE IS KEY YOU DO YOU", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (1198).jpg", "text": "No Oscars?.Bitch,I've got internet memes.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (162).jpg", "text": "When you decide to give up on life and bocome a loaf of bread", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 1}
+{"id": "data_image/image_ (418).jpg", "text": "Everybody laughing until you pull up with a lemon car", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 2}
+{"id": "data_image/image_ (3066).jpg", "text": "I WAS THE FIRST TRANSGENDER", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3230).jpg", "text": "First, I was Like.Hodor....But then, I was all.Hodor", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2870).jpg", "text": "Taking a picture with your best friend.And then someone wants to join", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (3245).jpg", "text": "WHEN YOUR FRIENDS SEND YOU SNAPCHATS OF THEM HANGING OUT.AND YOU ARE SITTING AT HOME WITH NO PLANS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (1702).jpg", "text": "I promise mom, its me tell me where i usually hide", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (364).jpg", "text": "they told me i could be anything....so I became a tank", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (35).jpg", "text": "ME:IS THAT A DUCK.MY BRAIN:Well yes, but actually no", 'text_label': 0, 'image_label': 1,"information_label":1, "label": 1}
+{"id": "data_image/image_ (247).jpg", "text": "some see a weed,some see a wish", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 4}
+{"id": "data_image/image_ (1695).jpg", "text": "There are two types of women", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1346).jpg", "text": "Most people at school  .have tons of friends and meanwhile  .I'm over here like.*is friends with rocks*", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (3633).jpg", "text": "LEONARDO DICAPO WILL STAR AS H.H.HOLMES IN NEW SERIAL KILLER SERIES.This is a Message to the American press.Please stop using pictures of me when you taliking about Leo.I know its hard to separate us,but do some research.Iwas on a audition for this show but i turned them down.To little $$ for me.So i guess they went for the next besy actor.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (2087).jpg", "text": "MORPHEUS HIGH AS FUCK.PRETENDING TO BE AN AGENT AND SHIT", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (2013).jpg", "text": "You know what i love about boys?.Their girlfriends.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 1}
+{"id": "data_image/image_ (516).jpg", "text": "FEMALE MOOD.IN ONE PICTURE", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 3}
+{"id": "data_image/image_ (1517).jpg", "text": "When you tryna smash but your dog is watching", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (1635).jpg", "text": "Is it too late now to say sorry?.What do you mean?.Hello, it's me.", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (923).jpg", "text": "MY NAME IS BOND JAMES BOND.MY NAME IS VAAS .WARNAKULASURIYA PATABENDIGE USHANTA JOSEPH CHAMINDA VAAS", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (1964).jpg", "text": "Sleeping is my drug,my bed is my dealer.AND MY ALARM CLOCK is the police.", 'text_label': 1, 'image_label': 0,"information_label":2, "label": 2}
+{"id": "data_image/image_ (2485).jpg", "text": "Life is this.I like this.", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}
+{"id": "data_image/image_ (2779).jpg", "text": "BEAST MODE", 'text_label': 0, 'image_label': 0,"information_label":0, "label": 2}
+{"id": "data_image/image_ (230).jpg", "text": "YOU CAN'T SEE ME I'M A FLOWER", 'text_label': 0, 'image_label': 0,"information_label":3, "label": 2}

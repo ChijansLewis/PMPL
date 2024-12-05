@@ -1,6 +1,6 @@
-train_file: './dataset/twitter/train.txt'
-val_file: './dataset/twitter/dev.txt'
-test_file: './dataset/twitter/test.txt'
+train_file: './dataset/twitter/train1.txt'
+val_file: './dataset/twitter/dev1.txt'
+test_file: './dataset/twitter/test1.txt'
 
 image_root: './dataset/twitter'
 # hidden_size: 768
@@ -36,15 +36,15 @@ distributed: false
 prompt_length: 16
 batch_size: 64
 type: 'train'
-class_num: 24
+class_num: 3
 test_only: false
 hidden_size: 768
 mmdlayer: 0
 ca_loss: false
 lr: 1e-5
-train_dataset: 'train.txt'
-test_dataset: 'test.txt'
-dev_dataset: 'dev.txt'
+train_dataset: 'train1.txt'
+test_dataset: 'test1.txt'
+dev_dataset: 'dev1.txt'
 alpha: 0.7
 beta: 0.7
 memory_length: 20
