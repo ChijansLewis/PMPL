@@ -3,7 +3,9 @@
 **/ViLT
 dataset/crisismmd/data_image/*
 dataset/twitter/data_image/*
+dataset/rebuttal/data_image/*
 **/models
 **/wandb
 **/output
 **/nohupfiles
+.vscode
