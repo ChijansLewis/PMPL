@@ -1,4 +1,4 @@
-import os
+import re
 from PIL import Image
 import torch
 from transformers import AutoProcessor, LlavaForConditionalGeneration
@@ -60,8 +60,9 @@ class LlavaInfer:
             output = self.model.generate(**inputs, max_new_tokens=self.max_new_tokens, do_sample=False)
 
         # Decode the output and return as a string
-        result = self.processor.decode(output[0][2:], skip_special_tokens=True)
-        self.output_text = result
+        result = self.processor.decode(output[0], skip_special_tokens=True)
+        prompt = re.sub('<image>', '', prompt)
+        self.output_text = result[len(prompt):].lstrip('\n')
         return self.output_text
     
     def apply_chat_template(self, message):
@@ -80,7 +81,7 @@ class LlavaInfer:
                     if self.resize_size != 0:
                         img = img.resize((self.resize_size, self.resize_size))
                     imgs.append(img)
-                    prompt += '<image>/n'
+                    prompt += '<image>'
                    
         return imgs, prompt
 
@@ -141,7 +142,7 @@ if __name__ == "__main__":
                 ]
             }
         ]
-    model = LlavaInfer()
+    model = LlavaInfer(resize_size=0)
     model.initialize(model_id="models/llava-1.5-7b-hf")
     model.update(message=message)
     model.infer()

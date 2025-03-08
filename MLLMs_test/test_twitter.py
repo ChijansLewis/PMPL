@@ -231,9 +231,13 @@ def qwen_generate(result_file = "qwen_result_infer_0307.json"):
                 [
                     {"type": "text", "text": txt}
                 ]
+                # +
+                # [
+                #     {"type": "text", "text": "Your answer should be: ...(analyze process) , the overall sentiment of the combination is ..."}
+                # ]
                 +
                 [
-                    {"type": "text", "text": "Your answer should be: (Analysis), Combination:(sentiment)"}
+                    {"type": "text", "text": "Your answer should be: Image:(sentiment), Text:(sentiment), Combination:(sentiment)"}
                 ]
             }
         ]
@@ -293,7 +297,7 @@ def llava_generate(result_file = "llava_result_infer_0307.json"):
                 ]
                 +
                 [
-                    {"type": "text", "text": "Your answer should be: (Analysis), Combination:(sentiment)"}
+                    {"type": "text", "text": "Your answer should be: Image:(sentiment), Text:(sentiment), Combination:(sentiment)"}
                 ]
             }
         ]
@@ -390,9 +394,11 @@ def qwen_generate_adjust_demo(
             json.dump(result, f, ensure_ascii=False)
             f.write("\n")
 
-def calculate_metrics():
+def calculate_metrics_llava(
+        result_file= "llava_result_infer_0307.json",
+        sentiment_position = "first",):
     # 打开并读取 .json 文件
-    with open("qwen_result_1shot_fixed/qwen_result.json", "r", encoding="utf-8") as f:
+    with open(result_file, "r", encoding="utf-8") as f:
         data = [json.loads(line) for line in f]
 
     # 定义情感关键词
@@ -410,26 +416,152 @@ def calculate_metrics():
 
     # 遍历每一条数据
     for entry in data:
-        qwen_output = entry.get('qwen_output', [])
+        llava_output = entry.get('llava_output', "")
         sd_label = entry.get('sd_label', None)
 
         if sd_label is not None:
             sd_labels.append(sd_label)
         
-        # 处理情感标签
-        if qwen_output:
-            matched_sentiment = None
-            for text in qwen_output:
-                # 使用正则表达式进行匹配
-                match = re.search(sentiment_pattern, text.lower())
-                if match:
-                    matched_sentiment = match.group(0)  # 获取第一个匹配的情感词
-                    break  # 找到第一个情感词后跳出循环
-            
-            # 存储结果
-            sentiment_results.append(matched_sentiment)
+        if sentiment_position == "last":
+            # 处理情感标签
+            matched_sentiments = []  # 存储所有匹配的情感结果
+
+            if llava_output:
+                matches = re.finditer(sentiment_pattern, llava_output.lower())  # 使用 finditer 获取所有匹配项
+                for match in matches:
+                    if match.lastindex:
+                        matched_sentiments.append(match.group(match.lastindex))  # 获取最后一个捕获组
+                    else:
+                        matched_sentiments.append(match.group(0))  # 获取整个匹配项
+
+                # 如果你只需要最后一个匹配的情感
+                matched_sentiment = matched_sentiments[-1] if matched_sentiments else None
+                # 存储结果
+                sentiment_results.append(matched_sentiment)
+            else:
+                sentiment_results.append(None)
+        elif sentiment_position == "first":
+            # 处理情感标签
+            matched_sentiments = []  # 存储所有匹配的情感结果
+
+            if llava_output:
+                matches = re.finditer(sentiment_pattern, llava_output.lower())  # 使用 finditer 获取所有匹配项
+                for match in matches:
+                    if match.lastindex:
+                        matched_sentiments.append(match.group(match.lastindex))  # 获取最后一个捕获组
+                    else:
+                        matched_sentiments.append(match.group(0))  # 获取整个匹配项
+
+                # 如果你只需要第一个匹配的情感
+                matched_sentiment = matched_sentiments[0] if matched_sentiments else None
+                # 存储结果
+                sentiment_results.append(matched_sentiment)
+            else:
+                sentiment_results.append(None)
+
+       
+
+        # 存储真实标签
+        if entry.get('ground_truth', None) is not None:
+            ground_truth.append(sentiment_keywords[entry['ground_truth']])
         else:
-            sentiment_results.append(None)
+            ground_truth.append(None)
+        
+        # 更新类别计数
+        if sd_label is not None:
+            category_counts[sd_label] += 1
+
+    # 计算每个 sd_label 分组的 F1 和 Accuracy
+    for label in set(sd_labels):
+        # 过滤出该 sd_label 对应的样本
+        filtered_results = [(sr, gt) for sr, gt, sd in zip(sentiment_results, ground_truth, sd_labels) if sd == label]
+        if filtered_results:
+            sentiment_results_filtered, ground_truth_filtered = zip(*filtered_results)
+            f1 = f1_score(ground_truth_filtered, sentiment_results_filtered, average='weighted', labels=sentiment_keywords)
+            accuracy = accuracy_score(ground_truth_filtered, sentiment_results_filtered)
+            print(f"Label {label} - F1 Score: {f1:.4f}, Accuracy: {accuracy:.4f}")
+        else:
+            print(f"Label {label} - No valid data to compute metrics.")
+
+    # 计算所有样本的 F1 和 Accuracy
+    valid_results = [(sr, gt) for sr, gt in zip(sentiment_results, ground_truth) if sr is not None and gt is not None]
+    if valid_results:
+        sentiment_results_cleaned, ground_truth_cleaned = zip(*valid_results)
+        overall_f1 = f1_score(ground_truth_cleaned, sentiment_results_cleaned, average='weighted', labels=sentiment_keywords)
+        overall_accuracy = accuracy_score(ground_truth_cleaned, sentiment_results_cleaned)
+        print(f"Overall F1 Score: {overall_f1:.4f}")
+        print(f"Overall Accuracy: {overall_accuracy:.4f}")
+    else:
+        print("No valid data to compute overall metrics.")
+
+    # 输出每个类别的样本个数
+    print(f"Sample counts by sd_label: {dict(category_counts)}")
+def calculate_metrics_qwen(
+        result_file= "qwen_results.json",
+        sentiment_position = "first",):
+    # 打开并读取 .json 文件
+    with open(result_file, "r", encoding="utf-8") as f:
+        data = [json.loads(line) for line in f]
+
+    # 定义情感关键词
+    sentiment_keywords = ['neutral', 'positive', 'negative']
+    # 用正则表达式创建一个模式，匹配所有情感关键词
+    sentiment_pattern = r'\b(?:' + '|'.join(sentiment_keywords) + r')\b'
+
+    # 存储情感标签结果和真实标签
+    sentiment_results = []
+    ground_truth = []
+    sd_labels = []
+
+    # 存储每个类别的样本数量
+    category_counts = Counter()
+
+    # 遍历每一条数据
+    for entry in data:
+        qwen_output = entry.get('qwen_output', "")
+        sd_label = entry.get('sd_label', None)
+
+        if sd_label is not None:
+            sd_labels.append(sd_label)
+        
+        if sentiment_position == "last":
+            # 处理情感标签
+            matched_sentiments = []  # 存储所有匹配的情感结果
+
+            if qwen_output:
+                matches = re.finditer(sentiment_pattern, qwen_output.lower())  # 使用 finditer 获取所有匹配项
+                for match in matches:
+                    if match.lastindex:
+                        matched_sentiments.append(match.group(match.lastindex))  # 获取最后一个捕获组
+                    else:
+                        matched_sentiments.append(match.group(0))  # 获取整个匹配项
+
+                # 如果你只需要最后一个匹配的情感
+                matched_sentiment = matched_sentiments[-1] if matched_sentiments else None
+                # 存储结果
+                sentiment_results.append(matched_sentiment)
+            else:
+                sentiment_results.append(None)
+        elif sentiment_position == "first":
+            # 处理情感标签
+            matched_sentiments = []  # 存储所有匹配的情感结果
+
+            if qwen_output:
+                matches = re.finditer(sentiment_pattern, qwen_output.lower())  # 使用 finditer 获取所有匹配项
+                for match in matches:
+                    if match.lastindex:
+                        matched_sentiments.append(match.group(match.lastindex))  # 获取最后一个捕获组
+                    else:
+                        matched_sentiments.append(match.group(0))  # 获取整个匹配项
+
+                # 如果你只需要第一个匹配的情感
+                matched_sentiment = matched_sentiments[0] if matched_sentiments else None
+                # 存储结果
+                sentiment_results.append(matched_sentiment)
+            else:
+                sentiment_results.append(None)
+
+       
 
         # 存储真实标签
         if entry.get('ground_truth', None) is not None:
@@ -467,145 +599,69 @@ def calculate_metrics():
     # 输出每个类别的样本个数
     print(f"Sample counts by sd_label: {dict(category_counts)}")
 
-def calculate_metrics_combination():
-    # 打开并读取 .json 文件
-    with open("qwen_result_infer_0306.json", "r", encoding="utf-8") as f:
-        data = [json.loads(line) for line in f]
+# def find_understand():
+#     # 读取文件，每一行为一条 JSON 数据
+#     with open("qwen_result_infer.json", "r", encoding="utf-8") as f:
+#         data = [json.loads(line) for line in f]
 
-    # 定义情感关键词
-    sentiment_keywords = ['neutral', 'positive', 'negative']
-    # 用正则表达式创建一个模式，匹配所有情感关键词
-    sentiment_pattern = r'\b(?:' + '|'.join(sentiment_keywords) + r')\b'
+#     # 定义情感关键词列表（下标与真实标签数字对应：0 -> neutral, 1 -> positive, 2 -> negative）
+#     sentiment_keywords = ['neutral', 'positive', 'negative']
 
-    # 存储情感标签结果和真实标签
-    sentiment_results = []
-    ground_truth = []
-    sd_labels = []
+#     fully_understood_indices = []  # 存储“全部理解”的样本索引
+#     fully_understood_entries = []    # 存储“全部理解”的完整条目
+#     fully_understood_count = Counter()  # 按组合真实标签统计“全部理解”样本数量
 
-    # 存储每个类别的样本数量
-    category_counts = Counter()
+#     for i, entry in enumerate(data):
+#         # 获取真实标签（数字形式），并转换为情感字符串
+#         gt_comb = entry.get("ground_truth", None)
+#         gt_image = entry.get("ground_truth_image", None)
+#         gt_text = entry.get("ground_truth_text", None)
 
-    # 遍历每一条数据
-    for entry in data:
-        qwen_output = entry.get('qwen_output', [])
-        sd_label = entry.get('sd_label', None)
+#         gt_comb_str = sentiment_keywords[gt_comb] if gt_comb is not None else None
+#         gt_image_str = sentiment_keywords[gt_image] if gt_image is not None else None
+#         gt_text_str = sentiment_keywords[gt_text] if gt_text is not None else None
 
-        if sd_label is not None:
-            sd_labels.append(sd_label)
-        
-        # 处理情感标签
-        if qwen_output:
-            matched_sentiment = None
-            for text in qwen_output:
-                second_part = text.split("Combination")[-1]
-                # 使用正则表达式进行匹配
-                match = re.search(sentiment_pattern, second_part.lower())
-                if match:
-                    matched_sentiment = match.group(0)  # 获取第一个匹配的情感词
-                    break  # 找到第一个情感词后跳出循环
-            
-            # 存储结果
-            sentiment_results.append(matched_sentiment)
-        else:
-            sentiment_results.append(None)
+#         # 获取 qwen_output 列表中的文本（假设列表中第一个元素包含完整的预测信息）
+#         qwen_output = entry.get("qwen_output", [])
+#         if not qwen_output:
+#             continue
+#         output_str = qwen_output[0]
 
-        # 存储真实标签
-        if entry.get('ground_truth', None) is not None:
-            ground_truth.append(sentiment_keywords[entry['ground_truth']])
-        else:
-            ground_truth.append(None)
-        
-        # 更新类别计数
-        if sd_label is not None:
-            category_counts[sd_label] += 1
+#         # 分别提取 Image、Text 和 Combination 的预测结果（忽略大小写）
+#         image_match = re.search(r'Image:\s*([A-Za-z]+)', output_str, re.IGNORECASE)
+#         text_match = re.search(r'Text:\s*([A-Za-z]+)', output_str, re.IGNORECASE)
+#         comb_match = re.search(r'Combination:\s*([A-Za-z]+)', output_str, re.IGNORECASE)
 
-    # 计算每个 sd_label 分组的 F1 和 Accuracy
-    for label in set(sd_labels):
-        # 过滤出该 sd_label 对应的样本
-        filtered_results = [(sr, gt) for sr, gt, sd in zip(sentiment_results, ground_truth, sd_labels) if sd == label]
-        if filtered_results:
-            sentiment_results_filtered, ground_truth_filtered = zip(*filtered_results)
-            f1 = f1_score(ground_truth_filtered, sentiment_results_filtered, average='weighted', labels=sentiment_keywords)
-            accuracy = accuracy_score(ground_truth_filtered, sentiment_results_filtered)
-            print(f"Label {label} - F1 Score: {f1:.4f}, Accuracy: {accuracy:.4f}")
-        else:
-            print(f"Label {label} - No valid data to compute metrics.")
+#         pred_image = image_match.group(1).lower() if image_match else None
+#         pred_text = text_match.group(1).lower() if text_match else None
+#         pred_comb = comb_match.group(1).lower() if comb_match else None
 
-    # 计算所有样本的 F1 和 Accuracy
-    valid_results = [(sr, gt) for sr, gt in zip(sentiment_results, ground_truth) if sr is not None and gt is not None]
-    if valid_results:
-        sentiment_results_cleaned, ground_truth_cleaned = zip(*valid_results)
-        overall_f1 = f1_score(ground_truth_cleaned, sentiment_results_cleaned, average='weighted', labels=sentiment_keywords)
-        overall_accuracy = accuracy_score(ground_truth_cleaned, sentiment_results_cleaned)
-        print(f"Overall F1 Score: {overall_f1:.4f}")
-        print(f"Overall Accuracy: {overall_accuracy:.4f}")
-    else:
-        print("No valid data to compute overall metrics.")
+#         # 只有当三个预测值以及对应的真实标签均存在时，才进行比较
+#         if (pred_image is not None and pred_text is not None and pred_comb is not None and
+#             gt_image_str is not None and gt_text_str is not None and gt_comb_str is not None):
+#             if pred_image == gt_image_str and pred_text == gt_text_str and pred_comb == gt_comb_str:
+#                 fully_understood_indices.append(i)
+#                 fully_understood_count[gt_comb_str] += 1
+#                 fully_understood_entries.append(entry)
 
-    # 输出每个类别的样本个数
-    print(f"Sample counts by sd_label: {dict(category_counts)}")
+#     total_samples = len(data)
+#     num_fully_understood = len(fully_understood_indices)
+#     print(f"Fully understood samples: {num_fully_understood} out of {total_samples} total samples.")
+#     for sentiment in sentiment_keywords:
+#         print(f"Label '{sentiment}': {fully_understood_count[sentiment]} fully understood samples.")
 
+#     # 将完全理解的条目写入新的文件，每一行为一条 JSON 数据
+#     with open("fully_understood_entries.json", "w", encoding="utf-8") as out_file:
+#         for entry in fully_understood_entries:
+#             out_file.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-def find_understand():
-    # 读取文件，每一行为一条 JSON 数据
-    with open("qwen_result_infer.json", "r", encoding="utf-8") as f:
-        data = [json.loads(line) for line in f]
-
-    # 定义情感关键词列表（下标与真实标签数字对应：0 -> neutral, 1 -> positive, 2 -> negative）
-    sentiment_keywords = ['neutral', 'positive', 'negative']
-
-    fully_understood_indices = []  # 存储“全部理解”的样本索引
-    fully_understood_entries = []    # 存储“全部理解”的完整条目
-    fully_understood_count = Counter()  # 按组合真实标签统计“全部理解”样本数量
-
-    for i, entry in enumerate(data):
-        # 获取真实标签（数字形式），并转换为情感字符串
-        gt_comb = entry.get("ground_truth", None)
-        gt_image = entry.get("ground_truth_image", None)
-        gt_text = entry.get("ground_truth_text", None)
-
-        gt_comb_str = sentiment_keywords[gt_comb] if gt_comb is not None else None
-        gt_image_str = sentiment_keywords[gt_image] if gt_image is not None else None
-        gt_text_str = sentiment_keywords[gt_text] if gt_text is not None else None
-
-        # 获取 qwen_output 列表中的文本（假设列表中第一个元素包含完整的预测信息）
-        qwen_output = entry.get("qwen_output", [])
-        if not qwen_output:
-            continue
-        output_str = qwen_output[0]
-
-        # 分别提取 Image、Text 和 Combination 的预测结果（忽略大小写）
-        image_match = re.search(r'Image:\s*([A-Za-z]+)', output_str, re.IGNORECASE)
-        text_match = re.search(r'Text:\s*([A-Za-z]+)', output_str, re.IGNORECASE)
-        comb_match = re.search(r'Combination:\s*([A-Za-z]+)', output_str, re.IGNORECASE)
-
-        pred_image = image_match.group(1).lower() if image_match else None
-        pred_text = text_match.group(1).lower() if text_match else None
-        pred_comb = comb_match.group(1).lower() if comb_match else None
-
-        # 只有当三个预测值以及对应的真实标签均存在时，才进行比较
-        if (pred_image is not None and pred_text is not None and pred_comb is not None and
-            gt_image_str is not None and gt_text_str is not None and gt_comb_str is not None):
-            if pred_image == gt_image_str and pred_text == gt_text_str and pred_comb == gt_comb_str:
-                fully_understood_indices.append(i)
-                fully_understood_count[gt_comb_str] += 1
-                fully_understood_entries.append(entry)
-
-    total_samples = len(data)
-    num_fully_understood = len(fully_understood_indices)
-    print(f"Fully understood samples: {num_fully_understood} out of {total_samples} total samples.")
-    for sentiment in sentiment_keywords:
-        print(f"Label '{sentiment}': {fully_understood_count[sentiment]} fully understood samples.")
-
-    # 将完全理解的条目写入新的文件，每一行为一条 JSON 数据
-    with open("fully_understood_entries.json", "w", encoding="utf-8") as out_file:
-        for entry in fully_understood_entries:
-            out_file.write(json.dumps(entry, ensure_ascii=False) + "\n")
+def main():
+    # qwen_generate_img_txt_comb()
+    # calculate_metrics_qwen(result_file="qwen_result_infer_0307-3.json",sentiment_position="last")
+    # calculate_metrics_llava(result_file="llava_result_infer_0307.json",sentiment_position="last")
+    # qwen_generate(result_file="qwen_result_infer_0307-3.json")
+    # find_understand()
+    llava_generate()
 
 if __name__ == '__main__':
-    # qwen_generate_img_txt_comb()
-    # calculate_metrics()
-    # calculate_metrics_combination()
-    qwen_generate()
-    # find_understand()
-    # llava_generate()
+    main()
