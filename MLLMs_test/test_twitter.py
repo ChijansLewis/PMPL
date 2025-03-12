@@ -257,6 +257,89 @@ def qwen_generate(result_file = "qwen_result_infer_0307.json"):
         with open(result_file, "a", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False)
             f.write("\n")
+
+def qwen_generate_retrieval_json(
+        result_file = "qwen_result_infer_0307.json",
+        retrieval_json_file = "retrieval_1shot_sd_feature.json",
+        sd_label=1):
+    with open(retrieval_json_file, "r", encoding="utf-8") as f:
+        retri_data = json.load(f)
+    image_root = "dataset/twitter/data_image/"
+    qwenllm = QWen2_5VLInfer()
+    qwenllm.initialize(model_id="models/qwen2.5vl-7b")
+    for item in retri_data:
+        query_image_path = os.path.join(image_root, item['query']['image'])
+        query_txt = item['query']['text']
+        query_ground_truth = item['query']['label']
+
+        retri_image_paths = [os.path.join(image_root, image_path) for image_path in item['retrieval']['images']]
+        retri_txts = item['retrieval']['texts']
+        retri_ground_truths = item['retrieval']['raw_labels']
+
+        # 根据检索结果构造示例组
+        demonstrations = []
+        for img_path, txt, label in zip(retri_image_paths, retri_txts, retri_ground_truths):
+            demonstrations.extend([
+                {"type": "text", "text": "Retrieved demonstration:"},
+                {"type": "image", "image": img_path},
+                {"type": "text", "text": "Text: " + txt},
+                {"type": "text", "text": "Label: " + label},
+                {"type": "text", "text": "\n"}  # 分隔空行
+            ])
+
+        message = [
+            {
+                "role": "user",
+                "content":
+                    [
+                        {"type": "text",
+                         "text": "You are a sentiment analysis expert who can accurately identify the sentiment expressed through both the image and text. "}
+                    ]
+                    +
+                    [
+                        {"type": "text", "text": "Here are demonstrations:\n"}
+                    ]
+                    +
+                    demonstrations +
+                    [
+                        {"type": "text",
+                         "text": "Please determine the overall sentiment expressed by the following combination (positive, negative, or neutral). "}
+                    ]
+                    +
+                    [
+                        {"type": "text", "text": "Image: \n"}
+                    ]
+                    +
+                    [
+                        {"type": "image", "image": query_image_path}
+                    ]
+                    +
+                    [
+                        {"type": "text", "text": "Text: \n"}
+                    ]
+                    +
+                    [
+                        {"type": "text", "text": query_txt}
+                    ]
+            }
+        ]
+        qwenllm.update(message = message)
+        qwenllm.infer()
+        print(qwenllm.output_text)
+
+        # 保存image_path，txt，sd_label，ground_truth到json文件中
+        result = {
+            "image": query_image_path,
+            "txt": query_txt,
+            "sd_label": sd_label,
+            "ground_truth": query_ground_truth,
+            "qwen_output": qwenllm.output_text
+        }
+
+        with open(result_file, "a", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False)
+            f.write("\n")
+
 def llava_generate(result_file = "llava_result_infer_0307.json"):
     text_file = "dataset/twitter/test.txt"
     image_root = "dataset/twitter/"
@@ -336,27 +419,27 @@ def qwen_generate_adjust_demo(
         message = [
             {
                 "role": "user",
-                "content": 
+                "content":
                 [
                     {"type": "text", "text": "You are a sentiment analysis expert who can accurately identify the sentiment expressed through both the image and text. "}
-                ] 
-                + 
+                ]
+                +
                 [
                     {"type": "text", "text": "Here is a demonstration:\n Image:"}
-                ] 
-                + 
+                ]
+                +
                 [
                     {"type": "image", "image": demo_image_path}
-                ] 
+                ]
                 +
                 [
                     {"type": "text", "text": f"Text:\n {demo_text}"}
-                ] 
-                + 
+                ]
+                +
                 [
                     {"type": "text", "text": "Answer: The overall sentiment expressed by the combination is negative. Although the picture is just the classic Windows XP wallpaper, which conveys a plastic, sensitive feel, the text expresses a sense of negativity due to concerns about fire hazards on the landscape of the wallpaper. Therefore, the overall sentiment conveyed by the combination should be considered negative."}
-                ] 
-                + 
+                ]
+                +
                 [
                     {"type": "text", "text": "Please determine the overall sentiment expressed by the following combination (positive, negative, or neutral). "}
                 ]
@@ -421,7 +504,7 @@ def calculate_metrics_llava(
 
         if sd_label is not None:
             sd_labels.append(sd_label)
-        
+
         if sentiment_position == "last":
             # 处理情感标签
             matched_sentiments = []  # 存储所有匹配的情感结果
@@ -459,14 +542,14 @@ def calculate_metrics_llava(
             else:
                 sentiment_results.append(None)
 
-       
+
 
         # 存储真实标签
         if entry.get('ground_truth', None) is not None:
             ground_truth.append(sentiment_keywords[entry['ground_truth']])
         else:
             ground_truth.append(None)
-        
+
         # 更新类别计数
         if sd_label is not None:
             category_counts[sd_label] += 1
@@ -496,7 +579,8 @@ def calculate_metrics_llava(
 
     # 输出每个类别的样本个数
     print(f"Sample counts by sd_label: {dict(category_counts)}")
-def calculate_metrics_qwen(
+
+def calculate_metrics_qwen_retrieval(
         result_file= "qwen_results.json",
         sentiment_position = "first",):
     # 打开并读取 .json 文件
@@ -523,7 +607,7 @@ def calculate_metrics_qwen(
 
         if sd_label is not None:
             sd_labels.append(sd_label)
-        
+
         if sentiment_position == "last":
             # 处理情感标签
             matched_sentiments = []  # 存储所有匹配的情感结果
@@ -561,14 +645,12 @@ def calculate_metrics_qwen(
             else:
                 sentiment_results.append(None)
 
-       
-
         # 存储真实标签
         if entry.get('ground_truth', None) is not None:
-            ground_truth.append(sentiment_keywords[entry['ground_truth']])
+            ground_truth.append(entry['ground_truth'].lower())
         else:
             ground_truth.append(None)
-        
+
         # 更新类别计数
         if sd_label is not None:
             category_counts[sd_label] += 1
@@ -654,14 +736,21 @@ def calculate_metrics_qwen(
 #     with open("fully_understood_entries.json", "w", encoding="utf-8") as out_file:
 #         for entry in fully_understood_entries:
 #             out_file.write(json.dumps(entry, ensure_ascii=False) + "\n")
-
 def main():
     # qwen_generate_img_txt_comb()
     # calculate_metrics_qwen(result_file="qwen_result_infer_0307-3.json",sentiment_position="last")
     # calculate_metrics_llava(result_file="llava_result_infer_0307.json",sentiment_position="last")
     # qwen_generate(result_file="qwen_result_infer_0307-3.json")
     # find_understand()
-    llava_generate()
+    # llava_generate()
+    # qwen_generate_retrieval_json(
+    #     result_file= "retri_sd_feature_norm.json",
+    #     retrieval_json_file= "norm_0312.json",
+    #     sd_label= 1,
+    # )
+    calculate_metrics_qwen_retrieval(
+        result_file= "retri_sd_feature_norm.json",
+        sentiment_position= "first",)
 
 if __name__ == '__main__':
     main()

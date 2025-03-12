@@ -38,6 +38,7 @@ class twitter_dataset(Dataset):
     def __getitem__(self, index):
         ann = self.ann[index]
         image_path = os.path.join(self.image_root, '%s' % ann.img_id)
+        img_number = os.path.splitext(os.path.basename(ann.img_id))[0]
         image = Image.open(image_path).convert('RGB')
         #print(self.transform)
         #print(f"before transformer Index: {index}, Image size: {image.size}")
@@ -70,7 +71,7 @@ class twitter_dataset(Dataset):
         text_labels = torch.tensor(text_label, dtype=float)
         image_labels = torch.tensor(image_label, dtype=float)
         information_label = torch.tensor(information_label, dtype=float)
-        return image, temp_text, labels, text_labels, image_labels, information_label, index
+        return image, temp_text, labels, text_labels, image_labels, information_label, index,img_number
 
     def _create_examples(self, data_file, test_file, split):
         """Creates examples for the training and dev sets."""

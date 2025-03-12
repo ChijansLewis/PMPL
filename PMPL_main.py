@@ -88,18 +88,20 @@ def train(model, data_loader, optimizer, tokenizer, epoch, warmup_steps, device,
     step_size = 100 
     warmup_iterations = warmup_steps * step_size
     temp_labels=None
+    all_features = []
+    all_ids = []
     for i, data in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
         total_step += 1
         # for i,data in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
         #     images, text, targets, missing_type = data['image'], data['text'], data['label'], data['missing_type']
         if args.dataset == 'mmimdb':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         elif args.dataset == 'crisismmd':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         elif args.dataset == 'twitter':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         elif args.dataset == 'hfir':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         labels = labels.to(device, non_blocking=True)
 
         if args.setting != 'multimodal' and epoch == 0 and args.dataset != 'mmimdb':
@@ -135,11 +137,18 @@ def train(model, data_loader, optimizer, tokenizer, epoch, warmup_steps, device,
             device)
  
         if epoch < 0:
-            ret = model(images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=False, Train=True,temp_labels=temp_labels)
+            ret = model(img_number,images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=False, Train=True,temp_labels=temp_labels)
         elif args.use_ca_loss:
-            ret = model(images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=True, Train=True,temp_labels=temp_labels)
+            ret = model(img_number,images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=True, Train=True,temp_labels=temp_labels)
         else:
-            ret = model(images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=False, Train=True,temp_labels=temp_labels)
+            ret = model(img_number,images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=False, Train=True,temp_labels=temp_labels)
+        
+        features = ret['features'].detach().cpu().numpy()  # 获取特征
+        sample_ids = ret['sample_ids']  # 获取 ID
+    
+        all_features.append(features)
+        all_ids.append(sample_ids)
+
         loss = ret['loss'] + args.beta*(ret['image_cls_loss']+ret['text_cls_loss'])
         if args.setting != 'multimodal':
             for i in range(len(img_id)):
@@ -157,6 +166,10 @@ def train(model, data_loader, optimizer, tokenizer, epoch, warmup_steps, device,
         if epoch == 0 and i % step_size == 0 and i <= warmup_iterations:
             scheduler.step(i // step_size)
 
+    all_demo_features = np.concatenate(all_features, axis=0)
+    #all_ids_array = np.array(all_ids, dtype=int)
+    all_deno_ids = np.concatenate(all_ids, axis=0)
+    np.savez("demo_features_with_ids.npz", features=all_demo_features, sample_ids=all_deno_ids)
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()
     print("Averaged stats:", metric_logger.global_avg())
@@ -180,16 +193,18 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
     informative_label = []
     no_informative = []
     no_informative_label = []
+    query_features = []
+    query_ids = []
 
     for i, data in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
         if args.dataset == 'mmimdb':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         elif args.dataset == 'crisismmd':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         elif args.dataset == 'twitter':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         elif args.dataset == 'hfir':
-            (images, text, labels, text_labels, image_labels, information_label, img_id) = data
+            (images, text, labels, text_labels, image_labels, information_label, img_id,img_number) = data
         labels = labels.to(device, non_blocking=True)
         information_label = information_label.to(device, non_blocking=True)
         images = images.to(device, non_blocking=True)
@@ -197,8 +212,14 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
 
         text_inputs = tokenizer(text, padding='max_length', max_length=512, truncation=True, return_tensors="pt").to(
             device)
-        ret = model(images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=True, Train=False)
-        
+        ret = model(img_number,images, text_inputs, labels, text_labels, image_labels, information_label, epoch, use_caloss=True, Train=False)
+            
+        features = ret['features'].detach().cpu().numpy()  # 获取特征
+        sample_ids = ret['sample_ids']  # 获取 ID
+
+        query_features.append(features)
+        query_ids.append(sample_ids)
+
 
         if args.dataset == 'crisismmd' or args.dataset == 'hfir' or args.dataset == 'twitter':
             prediction = ret['logits']
@@ -233,6 +254,13 @@ def evaluate(model, data_loader, tokenizer, epoch, device, config, args, validat
                     else:
                         no_informative_label.append(labels[i].squeeze().unsqueeze(0))     
                         no_informative.append(prediction[i].squeeze().unsqueeze(0))
+        
+
+        all_query_features = np.concatenate(query_features, axis=0)
+        #all_ids_array = np.array(query_ids, dtype=int)
+        all_query_id = np.concatenate(query_ids, axis=0)   
+
+        np.savez("query_features_with_ids.npz", features=all_query_features, sample_ids=all_query_id)
 
     if args.type == 'train' and args.model != 'pipeline' and args.dataset != 'mmimdb':
         informative_label = torch.cat(informative_label, dim=0)

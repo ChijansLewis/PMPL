@@ -152,7 +152,7 @@ class PMPL(nn.Module):
         self.grad_control()
 
             
-    def forward(self, image, text, labels, text_labels, image_labels, missing_image_label, epoch, use_caloss=False, Train=True,temp_labels=None):
+    def forward(self, img_id,image, text, labels, text_labels, image_labels, missing_image_label, epoch, use_caloss=False, Train=True,temp_labels=None):
         ca_loss = 0
         image_cls_loss = 0
         text_cls_loss = 0
@@ -327,9 +327,20 @@ class PMPL(nn.Module):
                 loss = F.binary_cross_entropy_with_logits(prediction, labels)
             else:
                 loss = F.cross_entropy(prediction, labels.long())
-            return {'loss':loss,'logits':prediction, 'ca_loss':ca_loss, 'image_cls_loss':image_cls_loss, 'text_cls_loss':text_cls_loss, 'text_labels':text_labels, 'image_labels':image_labels}
+            
+            return {'loss':loss,
+                    'logits':prediction, 
+                    'ca_loss':ca_loss, 
+                    'image_cls_loss':image_cls_loss, 
+                    'text_cls_loss':text_cls_loss, 
+                    'text_labels':text_labels, 
+                    'image_labels':image_labels,
+                    'features':gate_fusion,
+                    'sample_ids':img_id}
         else:
-            return {'logits':prediction}
+            return {'logits':prediction,
+                    'features':gate_fusion,
+                    'sample_ids':img_id}
  
     def get_extended_txt_attn_mask(self, attention_mask):
         extended_attention_mask = attention_mask.unsqueeze(1).unsqueeze(2)
