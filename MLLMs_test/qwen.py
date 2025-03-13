@@ -47,6 +47,7 @@ class QWen2_5VLInfer:
             if hasattr(self, key):  # Check if the attribute exists
                 setattr(self, key, value)
 
+    @torch.inference_mode()
     def initialize(self, model_id="Qwen/Qwen2.5-VL-7B-Instruct"):
         '''
         用于加载模型权重，需要在初始化后运行
@@ -67,6 +68,7 @@ class QWen2_5VLInfer:
             max_pixels=self.max_pixels,
             )
 
+    @torch.inference_mode()
     def infer(self):
         '''
         运行initialize之后进行推理，如变更参数需要调用update方法

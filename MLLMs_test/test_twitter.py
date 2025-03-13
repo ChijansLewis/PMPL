@@ -744,12 +744,12 @@ def main():
     # find_understand()
     # llava_generate()
     # qwen_generate_retrieval_json(
-    #     result_file= "retri_sd_feature_norm.json",
-    #     retrieval_json_file= "norm_0312.json",
+    #     result_file= "retri_all_feature.json",
+    #     retrieval_json_file= "retrieval_results_all_shot_1_normalize_2.json",
     #     sd_label= 1,
     # )
     calculate_metrics_qwen_retrieval(
-        result_file= "retri_sd_feature_norm.json",
+        result_file= "retri_all_feature.json",
         sentiment_position= "first",)
 
 if __name__ == '__main__':
