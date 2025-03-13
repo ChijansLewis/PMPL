@@ -4,4 +4,5 @@
 # 但跟踪 MLLMs_test 文件夹内的所有改动
 !MLLMs_test/
 !MLLMs_test/**
+!.gitignore
 **__pycache__
